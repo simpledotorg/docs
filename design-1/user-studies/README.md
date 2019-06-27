@@ -1,16 +1,49 @@
 # User testing
 
-### Users of Simple
+{% hint style="info" %}
+All documents marked with [🔒](https://drive.google.com/open?id=16-h9YaZf0rFZXbrGHll2ouWXNUiRzwFytuFZwh4Dvks)are private and for team members of Simple.
+{% endhint %}
 
-* [Key moments in the user journey](users-key-moments.md)
-* [Common user types of Simple](https://drive.google.com/open?id=1Z33sTuCUU2AQ0CNvuy7aWJAIYDOLWfwXljhMCoEP_Jo)
-* [Journey Map: Patients](https://drive.google.com/open?id=1mploce9-G8PSd-oabUqrA0ieIGL7oacO)
+## Users of Simple
 
-### Master documents \[Members only\]
+### Staff nurse: Primary user
 
-* [🔒](https://emojipedia.org/lock/) [Consolidated user testing results in public clinics in India](https://drive.google.com/open?id=1rUFcoEDIrYpJLLiqe8eQqxoAlr_XQfaTci64Z5FRihU)
-* [🔒](https://emojipedia.org/lock/) [List of all user testing documents](https://drive.google.com/open?id=1YBb1n7EMHS0fLILnCTpEyp-xrNnOx7i3JcjKNDLr9e8) 
-* [🔒](https://emojipedia.org/lock/) [Meet some of the actual users of Simple](https://drive.google.com/open?id=16-h9YaZf0rFZXbrGHll2ouWXNUiRzwFytuFZwh4Dvks)
-* [🔒](https://emojipedia.org/lock/) [Telephonic interview summary](https://drive.google.com/open?id=1HbX-0hBvfsLetvRRSVArHMLd_8LU-SDQjg45195ZF3g)
-* [🔒](https://emojipedia.org/lock/)[Journey Map: Nurses](https://drive.google.com/open?id=16VpzOyG5R7o7UwsIA_RiGSHQeaDS38rMw3Xi5Rn0XwQ) 
+[Key moments in the user journey](users-key-moments.md)  
+An illustrated sequence that depicts the end-to-end experience of a staff nurse. 
+
+[Journey map: Staff nurses](https://drive.google.com/open?id=16VpzOyG5R7o7UwsIA_RiGSHQeaDS38rMw3Xi5Rn0XwQ)  
+A mapping of a staff nurse's first-time experience with Simple and her typical work day.
+
+### Common users of Simple
+
+[Common user types of Simple](https://drive.google.com/open?id=1Z33sTuCUU2AQ0CNvuy7aWJAIYDOLWfwXljhMCoEP_Jo)  
+A list of the various users of Simple. These range from the patient, and staff nurse, to the Senior Medical Officer, and health minister.  
+  
+[🔒 Stories from the field  
+](https://drive.google.com/open?id=16-h9YaZf0rFZXbrGHll2ouWXNUiRzwFytuFZwh4Dvks)Meet some of the actual users of Simple.
+
+## Workflows at the clinics
+
+[Journey map: Patients](https://drive.google.com/open?id=1mploce9-G8PSd-oabUqrA0ieIGL7oacO)  
+Some of the patient workflows as observed at public health clinics.
+
+## Executive summaries
+
+[🔒](https://emojipedia.org/lock/) [Consolidated user testing results in public clinics in India](https://drive.google.com/open?id=1rUFcoEDIrYpJLLiqe8eQqxoAlr_XQfaTci64Z5FRihU)  
+_Last updated: May 30, 2019_  
+Collated findings from telephonic interviews and user tests on the field. Describes how each feature of Simple is being used by the users.  
+  
+[Consolidated user satisfaction rating  
+](https://docs.google.com/document/d/1nTMH31oSfY1WsxLcXyL01kDThrYwDuyxOjG21FohpEk/edit)_Last updated: June 21, 2019_  
+A consolidated average rating given to the app in the bi-weekly telephonic interviews, along with qualitative reasons for the given ratings.  
+__  
+[🔒](https://emojipedia.org/lock/) [Telephonic interviews summary](https://docs.google.com/document/d/1QzsWinS3mK6n6V_GHB3UW_525SVfYqftLGTMk0gFMbw/edit?usp=sharing)  
+_Last updated: June 21, 2019_  
+Summary of each set of telephonic interviews conducted.  
+  
+[🔒](https://emojipedia.org/lock/) [Consolidated findings from interviews with private doctors](https://drive.google.com/open?id=1zM-Eyb0R8stMHuXHZSGDF98MjXcKUL36XwfCqDrT1_k)  
+_Created: March 26, 2019_  
+Summary of findings from interviews with private doctors in Mumbai and Bangalore.  
+  
+
 

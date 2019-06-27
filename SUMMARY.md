@@ -31,6 +31,8 @@
 * [Design](design-1/design.md)
 * [User testing](design-1/user-studies/README.md)
   * [Key moments in the user journey](design-1/user-studies/users-key-moments.md)
+  * [User tests](design-1/user-studies/user-tests.md)
+  * [Conducting user tests](design-1/user-studies/conducting-user-tests.md)
 
 ## Elsewhere
 
