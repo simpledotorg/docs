@@ -39,3 +39,5 @@ Github: [simpledotorg/simple-server](https://github.com/simpledotorg/simple-serv
 
 {% page-ref page="how-to-test-the-simple-app.md" %}
 
+![](.gitbook/assets/screenshots.png)
+
