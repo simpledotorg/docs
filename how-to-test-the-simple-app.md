@@ -12,8 +12,8 @@ description: >-
 Demo is publicly accessible to anyone and everyone. It is nearly identical to the production app, but with dummy data.
 {% endhint %}
 
-1. Install it from [the Play Store](https://play.google.com/store/apps/details?id=org.simple.clinic.staging).
-2. While making a new account in the app, provide a correct phone number — you will receive a verification OTP SMS on it. If you don't have an Indian number \(starting in +91\) just use a fake number.
+1. Install Simple Demo from [the Play Store](https://play.google.com/store/apps/details?id=org.simple.clinic.staging).
+2. While making a new account in the app, provide a correct 10-digit phone number — you will receive a verification OTP SMS on it. If you don't have an Indian number \(starting in +91\) just use a fake 10-digit number.
 3. When choosing facilities, pick any of the "Demo" facilities \(e.g.: Demo Facility A, Demo Facility B etc.\)
 4. Tell someone from the Contributors team to _approve_ your account. Unless you get approved, no data will sync to your phone... but you can still create your own data and try out all the features!
 
