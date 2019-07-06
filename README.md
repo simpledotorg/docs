@@ -20,6 +20,8 @@ The Simple Android app that is used by healthcare workers to:
 Github: [simpledotorg/simple-android](https://github.com/simpledotorg/simple-android) 
 
 👩‍💻 The Android app is primarily written in Kotlin
+
+ ![](.gitbook/assets/screenshot_1.png) ![](.gitbook/assets/screenshot_2%20%281%29.png) ![](.gitbook/assets/screenshot_3%20%281%29.png) ![](.gitbook/assets/screenshot_4.png) 
 {% endtab %}
 
 {% tab title="🖥️ Simple Dashboard" %}
@@ -38,6 +40,4 @@ Github: [simpledotorg/simple-server](https://github.com/simpledotorg/simple-serv
 ## Want to try it out?
 
 {% page-ref page="how-to-test-the-simple-app.md" %}
-
-![](.gitbook/assets/screenshots.png)
 
