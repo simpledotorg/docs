@@ -25,6 +25,7 @@ Use [this template](https://docs.google.com/document/d/1hU47X_53_qIQQFh3Zvnjxwsj
 
 ### Simple Android App
 
+* 📖 [User handbook](https://www.dropbox.com/s/49w6qwnpe1ubxru/SOP-user-manual-005%20%288.5x5.5%29.pdf?dl=0)
 * 📝[ Onboarding new users flows](https://docs.google.com/document/d/1mpv0mmygSEW5Y4Lgvt7t9VDZfpB92EPm-2MDCoEOcS0/edit#) \[Exploration\]
 * 📝 [Recent Patients and Sync Indicator on homescreen](https://docs.google.com/document/d/1-0q1yRnkFHmEAdkpgaBK7hVHSgEfo_55LfwseFWDzSw/) 
 * 📝 [Search: Add mobile number to find patients](https://docs.google.com/document/d/198BLF2YfDMhJa_Flpb60yTrtxXU-hbvGnsP-RrAwfYo/edit)
@@ -37,10 +38,6 @@ Use [this template](https://docs.google.com/document/d/1hU47X_53_qIQQFh3Zvnjxwsj
 * 📝 [Patient de-duplication](https://docs.google.com/document/d/1jghIclGeHo6ues9wPjyMcqqm_wYu0mkPBgM2oxil0qE/edit)
 * 📝[ Role definitions matrix](https://docs.google.com/spreadsheets/d/1F_2HpQ8udVOyp5sWQhcswsR2ZDwsP5r-48HPQyQ-pF0/edit#gid=0)
 * 📝[ Exporting patient lists for community health workers](https://docs.google.com/document/d/1asdqZfovmWEyb9qfwnTfDHHyA2hx4xmnfteGfWAnCY8/edit)
-
-### Standard Operation Procedures
-
-* 📒 [How to use the Simple app in a clinic](https://docs.google.com/document/d/1HTSnQ1wplWyg0jAJEz7Exv0BWSMBLyhH-vPYqh16yCM/edit#)
 
 ### Scripts for videos
 
