@@ -34,6 +34,8 @@ A web-based tool that allows managers to:
 Github: [simpledotorg/simple-server](https://github.com/simpledotorg/simple-server) repository
 
 👩‍💻 The dashboard is primarily written in Ruby on Rails and PostgreSQL
+
+![](.gitbook/assets/screenshot_1%20%282%29.png)
 {% endtab %}
 {% endtabs %}
 
