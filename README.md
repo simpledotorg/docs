@@ -21,7 +21,7 @@ Github: [simpledotorg/simple-android](https://github.com/simpledotorg/simple-and
 
 👩‍💻 The Android app is primarily written in Kotlin
 
- ![](.gitbook/assets/screenshot_1.png) ![](.gitbook/assets/screenshot_2%20%282%29.png) ![](.gitbook/assets/screenshot_3%20%281%29.png) ![](.gitbook/assets/screenshot_4.png) 
+![](.gitbook/assets/screenshot_collection.png)
 {% endtab %}
 
 {% tab title="🖥️ Simple Dashboard" %}
