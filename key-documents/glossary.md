@@ -10,12 +10,35 @@ Please add new terms as you come across them. If you don't know what something m
 
 ### Roles
 
-* **Admin:** Role with access to the back-end dashboard Roles:
-* **Owner**: Tech team; can invite Admins, create facilities
-* **Organization Owner**: Has Owner privileges for an Organization excluding Counsellor view
-* **Supervisor**: CVHO / STS \(registration approvals, etc.\)
-* **Analyst**: Supervisor with read-only access
-* **Counselor**: Call center employee or equivalent who will follow up with the patient; can view and update Overdue and 48 Hour tabs.
+**Admin:** Anyone with access to the back-end dashboard, roles and permissions are listed below. 
+
+* **Owner**: Tech team, has all permissions listed below
+
+  * View Dashboard for all Organizations
+  * View and Download the Overdue list \(facility-wise\)
+  * View and update Adherence follow-ups
+  * Manage Organizations, Facility groups and Facilities
+  * Manage Admins
+  * Manage Protocols
+  * Manage Users and approve / deny their access to the Simple mobile app 
+  * Search Audit Logs
+
+* **Organization Owner**: Typically an administrator for one or more Organizations. Have all Owner permissions for the Organizations they have access to
+
+* **Supervisor**: Typically a Supervisor
+
+  * View Dashboard for Facilities that they have access to
+  * View and Download the Overdue list \(facility-wise\)
+  * View Facilities they have access to
+  * Manage Users and approve / deny their access to the Simple mobile app
+
+* **Analyst**: Typically an epidemiologist or health expert
+
+  * View Dashboard for Facilities they have access to \(District page only, not User page\)
+
+* **Counselor**: Typically a call center employee or counselor who will follow up with the patient
+  * View and Update the Overdue list
+  * View and Update Adherence follow-ups
 
 ### Terms
 
