@@ -76,7 +76,14 @@ Please add new terms as you come across them. If you don't know what something m
 * **Overdue list:** List of patients who have a phone number and who have missed their appointment. Displayed on the nurses' phone.
 * **Organization:** One or more facility groups that are part of a single administrative unit
 * **Protocol:** Name\(s\) and dosage\(s\) of medication recommended to be prescribed to a patient based on their current BP and BP history.
-* **Patient log:** List of all patients with a BP recorded in that facility. Displayed on the nurses' phones. 
+* **Patient log:** List of all patients with a BP recorded in that facility. Displayed on the nurses' phones.
+* **Result of a phone call made with the user's number masked:**
+  * Completed: Connected to the patient 
+  * Canceled: User cut the call before it was connected
+  * Busy: Patient’s number is giving a busy tone
+  * No answer: Patient did not answer
+  * Failed: Call failed \(likely due to bad phone number or operator-level disconnections\)
+  * Unknown: Result of the call is unknown 
 * **Security PIN:** 4 digit PIN used by the Nurse to login to the app
 * **User:** User of Simple app \(i.e. a healthcare work _not_ a patient\)
 
