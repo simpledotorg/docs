@@ -10,7 +10,9 @@
 
 ### Recent Patient Log on home screen of Android app
 
-![](../../.gitbook/assets/image.png)
+![](../../.gitbook/assets/recent-patient-log.jpg)
+
+
 
 ### Login on a new device
 
@@ -32,5 +34,7 @@
 
 ![](../../.gitbook/assets/image%20%286%29.png)
 
+### Dashboard reports
 
+![](../../.gitbook/assets/dashboard-reports.jpg)
 
