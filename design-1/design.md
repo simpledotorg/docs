@@ -14,7 +14,8 @@ description: >-
 
 ### Web-based Dashboard app
 
-&lt;This is currently poorly documented from a design standpoint.&gt;
+* [Zeplin](https://scene.zeplin.io/project/5ce85a735f66941e1fda8d5a) for a collection of UI screens
+* [Sketch](https://www.dropbox.com/s/n883xi53ix1b2od/Dashboard%20UI%20v1.0.sketch?dl=0) for the working files
 
 ### Materials
 
