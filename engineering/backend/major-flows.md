@@ -8,11 +8,9 @@
 
 ![](../../.gitbook/assets/image%20%283%29.png)
 
-### Recent Patient Log on home screen of Android app
+### Recent Patients List on home screen of Android app
 
-![](../../.gitbook/assets/recent-patient-log.jpg)
-
-
+![](../../.gitbook/assets/recent-patients-list.jpg)
 
 ### Login on a new device
 
@@ -36,5 +34,5 @@
 
 ### Dashboard reports
 
-![](../../.gitbook/assets/dashboard-reports.jpg)
+![](../../.gitbook/assets/recent-patients-list%20%282%29.jpg)
 
