@@ -12,7 +12,7 @@ description: >-
 * [Sketch](https://www.dropbox.com/sh/pfpvp0cxw0ukx0z/AAD_tbUTkDF2a3AxIG7l9fqGa?dl=0) for the working files. Please contact us if you want access to our Dropbox.
 * [UI evolution document](https://docs.google.com/document/d/1z-BCFZ7fpAUvAd55mIiPJBQBLQ9UusU-rrwmvhu0CMg/edit?usp=sharing) to see the iterations that the app has gone through and what we have observed for each of them.
 
-### Web-based Dashboard app
+### Web-based Dashboard
 
 * [Zeplin](https://scene.zeplin.io/project/5ce85a735f66941e1fda8d5a) for a collection of UI screens
 * [Sketch](https://www.dropbox.com/s/n883xi53ix1b2od/Dashboard%20UI%20v1.0.sketch?dl=0) for the working files
