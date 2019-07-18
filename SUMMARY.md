@@ -10,6 +10,7 @@
 * [Filing a bug](how-to-file-a-bug/README.md)
   * [Bug priority definitions](how-to-file-a-bug/bug-priority-definitions.md)
 * [Code of conduct](code-of-conduct.md)
+* [Digital principles](https://simple.org/digitalprinciples)
 * [Contact us](contact.md)
 
 ## Engineering
