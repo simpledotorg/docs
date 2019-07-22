@@ -101,7 +101,7 @@ description: >-
 * There are two ways to call a patient. Secure calls are free and the user’s phone number is hidden.
 * Normal calls are charged as per user's network provider.
 
-![](.gitbook/assets/call-masking.png)
+![](.gitbook/assets/02awqe.png)
 
 ### 7. "I am not able to see recent patients"
 
