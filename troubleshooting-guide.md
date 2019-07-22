@@ -1,5 +1,7 @@
 ---
-description: Use this guide to suggest workarounds for issues faced by nurses.
+description: >-
+  Use this guide to suggest workarounds for issues faced by healthcare workers
+  who use Simple in India
 ---
 
 # Troubleshooting guide
@@ -14,7 +16,8 @@ description: Use this guide to suggest workarounds for issues faced by nurses.
   <tbody>
     <tr>
       <td style="text-align:left">
-        <p>Support</p>
+        <p><b>Support</b>
+        </p>
         <p>
           <img src=".gitbook/assets/whatsapp.png" alt="Support" />
         </p>
@@ -28,7 +31,8 @@ description: Use this guide to suggest workarounds for issues faced by nurses.
     </tr>
     <tr>
       <td style="text-align:left">
-        <p>Be kind</p>
+        <p><b>Be kind</b>
+        </p>
         <p>
           <img src=".gitbook/assets/simple.png" alt="Be kind" />
         </p>
@@ -38,7 +42,8 @@ description: Use this guide to suggest workarounds for issues faced by nurses.
     </tr>
     <tr>
       <td style="text-align:left">
-        <p>Location access</p>
+        <p><b>Location access</b>
+        </p>
         <p>
           <img src=".gitbook/assets/location.png" alt="Location access" />
         </p>
@@ -49,7 +54,8 @@ description: Use this guide to suggest workarounds for issues faced by nurses.
     </tr>
     <tr>
       <td style="text-align:left">
-        <p>Ideas</p>
+        <p><b>Ideas</b>
+        </p>
         <p>
           <img src=".gitbook/assets/idea.png" alt="Ideas" />
         </p>
