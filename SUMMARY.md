@@ -2,7 +2,7 @@
 
 * [What is Simple?](README.md)
 * [Try it out](how-to-test-the-simple-app.md)
-* [Troubleshooting guide](troubleshooting-guide.md)
+* [Guide for use in the field](troubleshooting-guide.md)
 * [Current priorties](current-priorties.md)
 * [Key documents](key-documents/README.md)
   * [Acronyms](key-documents/acronyms.md)

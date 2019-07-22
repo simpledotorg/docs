@@ -1,10 +1,10 @@
 ---
 description: >-
-  Use this guide to suggest workarounds for issues faced by healthcare workers
-  who use Simple in India
+  Use this troubleshooting guide to suggest solutions for issues faced by
+  healthcare workers who use Simple in India
 ---
 
-# Troubleshooting guide
+# Guide for use in the field
 
 <table>
   <thead>
@@ -23,8 +23,8 @@ description: >-
         </p>
       </td>
       <td style="text-align:left">
-        <p>We request you to stay active on your Whats App groups and help nurses
-          when they face an issue with the Simple app. Thank you for your hard work
+        <p>It is important to stay active on your WhatsApp groups and help healthcare
+          workers when they face an issue with Simple. Thank you for your hard work
           and cooperation.</p>
         <p></p>
       </td>
@@ -48,9 +48,9 @@ description: >-
           <img src=".gitbook/assets/location.png" alt="Location access" />
         </p>
       </td>
-      <td style="text-align:left">Ask users to allow access to their location during sign-up after they
-        download the app. This will help them find the correct facility and prevent
-        registration of patients under the wrong facility.</td>
+      <td style="text-align:left">Ask users to allow access to their location during sign-up. This will
+        help them find the correct facility and prevent registration of patients
+        under the wrong facility.</td>
     </tr>
     <tr>
       <td style="text-align:left">
@@ -60,8 +60,8 @@ description: >-
           <img src=".gitbook/assets/idea.png" alt="Ideas" />
         </p>
       </td>
-      <td style="text-align:left">If the users request for a new feature in the simple app then please make
-        a note of it and send a message to Praveen.</td>
+      <td style="text-align:left">When users request new features or have ideas to improve Simple, please
+        make a note and message to Praveen.</td>
     </tr>
   </tbody>
 </table>> **If the issue doesn’t get resolved with any of the suggested workarounds, kindly make a note of it and report the issue along with the details to Praveen.**
@@ -88,7 +88,7 @@ description: >-
 
 * Ask the users to tap on the 'EDIT' button on the top right corner of the patient details screen.
 
-![](.gitbook/assets/edit-details%20%282%29.png)
+![](.gitbook/assets/02.2.png)
 
 ### 5. "My call gets disconnected when I call a patient"
 
