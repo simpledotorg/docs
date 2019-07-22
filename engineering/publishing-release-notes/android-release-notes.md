@@ -1,4 +1,4 @@
-# Release notes
+# Android release notes
 
 The release notes for the Android application are maintained as part of the repository in a file named [CHANGELOG](https://github.com/simpledotorg/simple-android/blob/master/CHANGELOG.md). Every release to the Play Store has a section in the document. Each section title has two parts, namely
 
