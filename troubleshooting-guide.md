@@ -146,3 +146,36 @@ description: >-
 
 * Yes, ask the users to issue BP passport to all hypertensive patients and discontinue the old IHMI cards.
 
+### 15. "**I want to change my handset, but continue to use Simple with same mobile number. How can I do it ?"**
+
+* Download the ‘Simple’ app on the new handset from Google Play store.
+* Ensure that user's new handset has the same sim card as their registered mobile number with ‘Simple’.
+* Ask them to open the ‘Simple’ app & tap on ‘Get started’**.**
+* They need to enter their mobile number & then their 4-digit security PIN
+* After successfully entering the correct PIN, they will see the following message:
+
+### 
+
+![](.gitbook/assets/sign-out.png)
+
+* Ask them to tap on ‘GOT IT’ and they can start using simple as they normally do.
+* They will be logged out of their old device.
+
+### 16. "**Can I use the same mobile number in two handsets to use the simple app ?"**
+
+* No, users cannot use two handsets to use Simple.
+* Users can only be logged in on one device at a time.
+
+### 17. "**I selected the wrong facility during installation and registration process in the Simple app. What should I do ?"**
+
+* The CVHO is requested to immediately get in touch with Praveen and share user's details to get the facility corrected.
+
+### 18. "**I am transferred to another facility, how can I get it changed ?"**
+
+* The CVHO is requested to immediately get in touch with Praveen and share user's details to get the facility changed.
+
+### 19. "**If a patient is already registered in one facility and visits another facility, should he/she be registered as a new patient again ?"**
+
+* If the patient is already registered in another facility, he/she **must not be registered again in the new facility.**
+* However, their details like - blood pressure, medicines etc. can be updated normally.
+
