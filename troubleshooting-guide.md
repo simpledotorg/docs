@@ -123,7 +123,7 @@ description: >-
 
 ### 10. "What is the meaning of patient at high risk"
 
-* Patients who are overdue by more than **30 days** and had their last BP **greater than 180/110** are critical & at high risk of stroke. They must be called for check-up.
+* Patients who are overdue by more than **30 days** and had their last BP **greater than 160/100** or has previously had a heart attack / stroke, or is suffering from diabetes or kidney disease are critical and at high risk of stroke. They must be called for check-up.
 
 ### 11. "For what values of BP is the patient considered 'hypertensive'?
 
