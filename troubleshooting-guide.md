@@ -158,7 +158,7 @@ description: >-
 
 ![](.gitbook/assets/sign-out.png)
 
-* Ask them to tap on ‘GOT IT’ and they can start using simple as they normally do.
+* Ask them to tap on ‘GOT IT’ and they can start using Simple as they normally do.
 * They will be logged out of their old device.
 
 ### 16. "**Can I use the same mobile number in two handsets to use the simple app ?"**
