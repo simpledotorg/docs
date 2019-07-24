@@ -17,6 +17,7 @@ Following are the tests that we've conducted with users who work at public healt
 
 | Date | Topic | Location |
 | :--- | :--- | :--- |
+| July 2019 | [🔒](https://drive.google.com/open?id=16-h9YaZf0rFZXbrGHll2ouWXNUiRzwFytuFZwh4Dvks)[New features of Simple: Recent patients, Overdue patients' calling, BP passport](https://drive.google.com/open?id=1TkjRNUMxEgWYQFiLCFnydeQGQ8ZVosnbSMwP4xvPFo4) | Gurdaspur, Punjab |
 | April 2019 | [🔒](https://drive.google.com/open?id=16-h9YaZf0rFZXbrGHll2ouWXNUiRzwFytuFZwh4Dvks)[Learning about perspectives of doctors](https://drive.google.com/open?id=1ST6LoeJbl9qnf-JRraXD4QO2nWc80rhYNcFxN_mk-lU) | Gurdaspur, Punjab |
 | March 2019 | [🔒](https://drive.google.com/open?id=16-h9YaZf0rFZXbrGHll2ouWXNUiRzwFytuFZwh4Dvks)[Pilot deployment of BP Passports](https://drive.google.com/open?id=1Yzs8LCCQbK8wGU8kD_49aKmMCmtJqkCLphhk0_gWt_c) | Bathinda, Punjab |
 | March 2019 | [🔒](https://drive.google.com/open?id=16-h9YaZf0rFZXbrGHll2ouWXNUiRzwFytuFZwh4Dvks)[PATH — Post Deployment](https://drive.google.com/open?id=1eDUc5J0rYxCeYy6TDzng2uasXx4SCXHohcgaJaOKfac) | PATH clinics, Mumbai |
