@@ -6,7 +6,7 @@ description: >-
 
 # What is Simple?
 
-Simple has two main components. A mobile app for Android and a web-based secure Dashboard.
+[Simple](http://simple.org) has two main components. A mobile app for Android and a web-based secure Dashboard.
 
 {% tabs %}
 {% tab title="📱 Simple Android App" %}
