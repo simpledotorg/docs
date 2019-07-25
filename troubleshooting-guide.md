@@ -172,7 +172,8 @@ description: >-
 
 ### 18. "**I am transferred to another facility, how can I get it changed ?"**
 
-* The CVHO is requested to immediately get in touch with Praveen and share user's details to get the facility changed.
+* Users can change it in the app themselves. Tap on the icon next to current facility name on the home screen , and select another facility.
+* If users are not able find the facility name , then their CVHO is requested to immediately get in touch with Praveen and share user's details to get the facility changed.
 
 ### 19. "**If a patient is already registered in one facility and visits another facility, should he/she be registered as a new patient again ?"**
 
