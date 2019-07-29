@@ -22,6 +22,10 @@ Following are the tests that we've conducted with users who work at public healt
 | March 2019 | [🔒](https://drive.google.com/open?id=16-h9YaZf0rFZXbrGHll2ouWXNUiRzwFytuFZwh4Dvks)[Pilot deployment of BP Passports](https://drive.google.com/open?id=1Yzs8LCCQbK8wGU8kD_49aKmMCmtJqkCLphhk0_gWt_c) | Bathinda, Punjab |
 | March 2019 | [🔒](https://drive.google.com/open?id=16-h9YaZf0rFZXbrGHll2ouWXNUiRzwFytuFZwh4Dvks)[PATH — Post Deployment](https://drive.google.com/open?id=1eDUc5J0rYxCeYy6TDzng2uasXx4SCXHohcgaJaOKfac) | PATH clinics, Mumbai |
 | December 2018 | [🔒](https://drive.google.com/open?id=16-h9YaZf0rFZXbrGHll2ouWXNUiRzwFytuFZwh4Dvks)[Experiments app for BP Passport flows](https://drive.google.com/open?id=1akYhJImhrzI4si0ssSCztXWYdK5vmPvzNpp_b-r2wNE) | Bathinda and Mansa, Punjab |
+| November 2018 | [🔒](https://drive.google.com/open?id=16-h9YaZf0rFZXbrGHll2ouWXNUiRzwFytuFZwh4Dvks)[Benchmarking features of the app](https://drive.google.com/open?id=1F_CqLVHZy01M_-zMaU-VgnSv1KmlsI1Sp4UzErruV9w) | Bathinda and Mansa, Punjab |
+| October 2018 | [🔒](https://drive.google.com/open?id=16-h9YaZf0rFZXbrGHll2ouWXNUiRzwFytuFZwh4Dvks)[Launch at first 10 facilities](https://drive.google.com/open?id=1vUPlRlQfsWIqp9yyVHa5LP_pR7G3JYXBuLntYAgexRM) | Bathinda and Mansa, Punjab |
+| October 2018 | [🔒](https://drive.google.com/open?id=16-h9YaZf0rFZXbrGHll2ouWXNUiRzwFytuFZwh4Dvks)[Launch at first 5 facilities](https://drive.google.com/open?id=1yCwbPr9PBydoar5X_jvS_zzRu7TQhTRez3I5cz73y2c) | Bathinda and Mansa, Punjab |
+|  |  |  |
 
 ## Usability testing with non-IHMI nurses in Bangalore
 
