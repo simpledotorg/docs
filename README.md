@@ -1,7 +1,8 @@
 ---
 description: >-
-  Simple is the fast, free app for clinicians to manage patients with high blood
-  pressure. This is the home of our documentation. More details at Simple.org
+  Simple is the fast, free app for clinicians to manage their patients with high
+  blood pressure. This is the home of our documentation. More details at
+  Simple.org
 ---
 
 # What is Simple?
