@@ -22,7 +22,7 @@
 
 ### Overdue Patient List
 
-![](../../.gitbook/assets/image%20%284%29.png)
+![](../../.gitbook/assets/overdue-list.jpg)
 
 ### "High risk" label in Overdue list
 
