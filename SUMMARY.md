@@ -25,6 +25,7 @@
 * [Android](engineering/android/README.md)
   * [Conventions](engineering/android/conventions.md)
   * [Deploying to Play Store](engineering/android/deploying-to-play-store.md)
+  * [Bitrise Workflow Quirks](engineering/android/bitrise-workflow-quirks.md)
   * [Headers sent from the app](engineering/android/headers-sent-from-the-app.md)
 * [Backend](engineering/backend/README.md)
   * [Audit logs](engineering/backend/audit-logs.md)
