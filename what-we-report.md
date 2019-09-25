@@ -44,6 +44,8 @@ $$
 Monthly\ control\ rate = \frac{Controlled\ in\ month\ X+1}{Registered\ in\ month\ X}
 $$
 
+We provide monthly cohorts on the Simple dashboard for the previous six months.
+
 ### Quarterly cohorts
 
 To see sustained improvements in a clinic or health system, it's useful to look in terms of quarters instead of months. Quarterly cohorts are calculated in much the same way.
@@ -62,6 +64,8 @@ Again, the **control rate** for Q2 2019 is calculated by dividing the **controll
 $$
 Quarterly\ control\ rate = \frac{Controlled\ in\ quarter\ X+1}{Registered\ in\ quarter\ X}
 $$
+
+We provide quarterly cohorts on the Simple dashboard for the current quarter and previous two quarters.
 
 ## Facility reports
 
