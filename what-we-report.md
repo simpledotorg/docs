@@ -67,10 +67,10 @@ $$
 
 In order to track how a district is performing, we report the following indicators for each facility in the district:
 
-* **Total registered patients:** How many patients have ever been registered
-* **Follow up patients per month:** How many patients had a follow up visit
-* **Newly registrations per month:** How many patients had their first visit
-* **Patient calls per month:** How times did users attempt to call patients
+* **Total registered patients:** How many patients have ever been registered at this facility
+* **Follow up patients per month:** How many patients had a follow up visit at this facility
+* **Newly registrations per month:** How many patients had their first visit at this facility
+* **Patient calls per month:** How times did users from this facility attempt to call patients
 
 We show these indicators for the current month and previous 2 months.
 
@@ -80,10 +80,10 @@ We show these indicators for the current month and previous 2 months.
 
 In order to track how a particular facility is performing, we report the following indicators for each user in the facility:
 
-* **Total registered patients:** How many patients have ever been registered
-* **Follow up patients per month:** How many patients had a follow up visit
-* **Newly registrations per month:** How many patients had their first visit
-* **Patient calls per month:** How times did users attempt to call patients
+* **Total registered patients:** How many patients have ever been registered by this user
+* **Follow up patients per month:** How many patients had a follow up visit with this user
+* **Newly registrations per month:** How many patients had their first visit with this user
+* **Patient calls per month:** How times did this user attempt to call patients
 
 We show these indicators for the current month and previous 2 months.
 
