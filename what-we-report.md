@@ -38,7 +38,7 @@ For example, let's look at the cohort analysis for February 2019.
 * **Uncontrolled:** Number of patients who returned in Feburary 2019 with high BP
 * **Controlled:** Number of patients who returned in Feburary 2019 with controlled BP
 
-The **control rate** for February 2019 is simply divinding the **controlled** number by the **registered** number.
+The **control rate** for February 2019 is calculated by dividing the **controlled** number by the **registered** number.
 
 $$
 Monthly\ control\ rate = \frac{Controlled\ in\ month\ X+1}{Registered\ in\ month\ X}
@@ -57,7 +57,7 @@ For example, let's look at Q2 2019 \(April–June\).
 * **Uncontrolled:** Number of patients who returned in Q2 2019 with high BP
 * **Controlled:** Number of patients who returned in Q2 2019 with controlled BP
 
-Again, the **control rate** for Q2 2019 is simply divinding the **controlled** number by the **registered** number.
+Again, the **control rate** for Q2 2019 is calculated by dividing the **controlled** number by the **registered** number.
 
 $$
 Quarterly\ control\ rate = \frac{Controlled\ in\ quarter\ X+1}{Registered\ in\ quarter\ X}
