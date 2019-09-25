@@ -199,5 +199,5 @@ _Manjeet is transferred to another clinic. Her supervisor asks her to brief the 
 This document was inspired by the wonderful work of the Airbnb design team on their "Snow White" project. [Read about the project...](https://www.inc.com/yazin-akkawi/the-surprising-technique-airbnb-uses-to-better-sell-an-experience.html)
 {% endhint %}
 
-![Airbnb&apos;s &quot;Snow White&quot; project.](../../.gitbook/assets/image%20%288%29.png)
+![Airbnb&apos;s &quot;Snow White&quot; project.](../../.gitbook/assets/image%20%2811%29.png)
 
