@@ -17,6 +17,7 @@ Following are the tests that we've conducted with users who work at public healt
 
 | Date | Topic | Location |
 | :--- | :--- | :--- |
+| September 2019 | [🔒](https://drive.google.com/open?id=16-h9YaZf0rFZXbrGHll2ouWXNUiRzwFytuFZwh4Dvks)[Testing prototypes for diabetes and visit model, patient transfer and instant search](https://docs.google.com/document/d/1UgRJ9Of4HJqzhJlBbmVLdtrW5hlej59CMpkdLf8GZEQ/edit) | Sindhudurg, Maharashtra |
 | August 2019 | [🔒](https://drive.google.com/open?id=16-h9YaZf0rFZXbrGHll2ouWXNUiRzwFytuFZwh4Dvks)[Understanding the needs of CVHOs](https://docs.google.com/document/d/1ZLiwgcjK5w7QIbqnxQsHCfJr4dsPJhEdB3-IEDgGTZU/edit?usp=sharing) | Remote |
 | July 2019 | [🔒](https://drive.google.com/open?id=16-h9YaZf0rFZXbrGHll2ouWXNUiRzwFytuFZwh4Dvks)[New features of Simple: Recent patients, Overdue patients' calling, BP passport](https://drive.google.com/open?id=1TkjRNUMxEgWYQFiLCFnydeQGQ8ZVosnbSMwP4xvPFo4) | Gurdaspur, Punjab |
 | April 2019 | [🔒](https://drive.google.com/open?id=16-h9YaZf0rFZXbrGHll2ouWXNUiRzwFytuFZwh4Dvks)[Learning about perspectives of doctors](https://drive.google.com/open?id=1ST6LoeJbl9qnf-JRraXD4QO2nWc80rhYNcFxN_mk-lU) | Gurdaspur, Punjab |
