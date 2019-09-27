@@ -1,13 +1,12 @@
 ---
 description: >-
   Simple is the fast, free app for clinicians to manage their patients with high
-  blood pressure. This is the home of our documentation. More details at
-  Simple.org
+  blood pressure. More details at Simple.org
 ---
 
 # What is Simple?
 
-[Simple](http://simple.org) has two main components. A mobile app for Android and a web-based secure Dashboard.
+This is a truly free, [open source project](https://www.simple.org/license/) under an MIT License. [Simple](http://simple.org) has two main components: a mobile app for Android and a secure web-based Dashboard.
 
 {% tabs %}
 {% tab title="📱 Simple Android App" %}
