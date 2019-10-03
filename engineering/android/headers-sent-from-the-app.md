@@ -60,5 +60,21 @@ description: >-
       <td style="text-align:left"><code>3600</code>,<code>-3600</code>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left"><code>X-USER-ID</code>
+      </td>
+      <td style="text-align:left">This is the ID of the logged in user. This field will be absent if the
+        user has not logged in yet.</td>
+      <td style="text-align:left"><code>30b9c537-4a53-4d92-bf0f-cefed3f5e63e</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>X-FACILITY-ID</code>
+      </td>
+      <td style="text-align:left">This is the facility ID which is selected by the current logged in user.
+        This field will be absent if the user has not logged in yet.</td>
+      <td style="text-align:left"><code>7fc136a1-5ea7-40c7-8154-452a35481340</code>
+      </td>
+    </tr>
   </tbody>
 </table>
