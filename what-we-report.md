@@ -27,24 +27,29 @@ We provide these reports for the overall **district** level and for each **facil
 
 ### Monthly cohorts
 
-Looking at monthly cohorts allows us to quickly identify performance issues. Ths is particularly useful when trying to provide feedback to clinicians or medical officers.
+Looking at monthly cohorts allows us to quickly identify performance issues. This is particularly useful when trying to provide feedback to clinicians or medical officers.
 
-Monthly cohorts takes all the patients registered in a given month and looks to see if they returned for care in the following month.
+Monthly cohorts takes all the patients registered in a given month and looks to see if they returned for care in the following two months. This is a rolling indicator, reporting at the completion of each period.
 
-For example, let's look at the cohort analysis for February 2019.
+For example, let's look at the cohort analysis reported on April 2019.
 
 * **Registered:** Number of patients first registered in Simple in January 2019
-* **Defaulted:** Number of patients who did not return in Feburary 2019
-* **Uncontrolled:** Number of patients who returned in Feburary 2019 with high BP
-* **Controlled:** Number of patients who returned in Feburary 2019 with controlled BP
+* **Defaulted:** Number of patients who did not return between Feburary 1 and March 30, 2019
+* **Uncontrolled:** Number of patients who returned between Feburary 1 and March 30, 2019
+
+  and whose last BP in that period was high
+
+* **Controlled:** Number of patients who returned between Feburary 1 and March 30, 2019
+
+  and whose last BP in that period was controlled
 
 The **control rate** for February 2019 is calculated by dividing the **controlled** number by the **registered** number.
 
 $$
-Monthly\ control\ rate = \frac{Controlled\ in\ month\ X+1}{Registered\ in\ month\ X}
+Monthly\ control\ rate = \frac{Controlled\ between\ months\ (X+1)\ and\ (X+2)}{Registered\ in\ month\ X}
 $$
 
-We provide monthly cohorts on the Simple dashboard for the previous six months.
+We provide monthly cohorts on the Simple dashboard for the previous six periods.
 
 ### Quarterly cohorts
 
@@ -56,8 +61,8 @@ For example, let's look at Q2 2019 \(April–June\).
 
 * **Registered:** Number of patients first registered in Simple in Q1 2019 \(January–March\)
 * **Defaulted:** Number of patients who did not return in Q2 2019 \(April–June\)
-* **Uncontrolled:** Number of patients who returned in Q2 2019 with high BP
-* **Controlled:** Number of patients who returned in Q2 2019 with controlled BP
+* **Uncontrolled:** Number of patients who returned in Q2 2019 and whose last BP in that period was high
+* **Controlled:** Number of patients who returned in Q2 2019 and whose last BP in that period was controlled
 
 Again, the **control rate** for Q2 2019 is calculated by dividing the **controlled** number by the **registered** number.
 
