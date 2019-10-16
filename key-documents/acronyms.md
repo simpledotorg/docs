@@ -31,6 +31,8 @@ Please add new acronyms as you come across them. If you don't know what somethin
 | IHMI | Indian Hypertension Management Initiative |
 | IPM | Iteration Planning Meeting |
 | MoH | Ministry of Health |
+| NCD | Noncommunicable Disease \(e.g. hypertension, diabetes, cancers\) |
+| PAHO | Pan American Health Organization \(WHO for Latin America\) |
 | PHC | Primary Health Center |
 | RTSL | Resolve To Save Lives |
 | SAD | Slum Area Dispensary |
