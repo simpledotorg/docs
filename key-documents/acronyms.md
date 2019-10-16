@@ -13,7 +13,7 @@ Please add new acronyms as you come across them. If you don't know what somethin
 | Acronym | Definition |
 | :--- | :--- |
 | ANM | Auxiliary Nurse Midwife \(can run a subcenter\) |
-| ASHA | Auxiliary Social Health Associate \(treats patients in rural areas\) |
+| ASHA | Accredited Social Health Activist \(treats patients in rural areas\) |
 | CHC | Community Health Centre |
 | CHEW | Ethiopia's Community Health Extension Workers |
 | CHO | Community Health Officer |
