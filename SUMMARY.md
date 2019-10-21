@@ -30,6 +30,7 @@
   * [Headers sent from the app](engineering/android/headers-sent-from-the-app.md)
 * [Backend](engineering/backend/README.md)
   * [Audit logs](engineering/backend/audit-logs.md)
+  * [Dashboard permissions](engineering/backend/dashboard-permissions.md)
   * [Major flows](engineering/backend/major-flows.md)
 
 ## Design <a id="design-1"></a>
