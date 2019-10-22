@@ -111,6 +111,27 @@ Admin access to the dashboard is determined by the set of permissions listed bel
       </td>
     </tr>
     <tr>
+      <td style="text-align:left">Manage protocols</td>
+      <td style="text-align:left">
+        <ul>
+          <li><b>Protocol page (Manage &gt; Protocols)</b>
+            <ul>
+              <li>Add a new protocol</li>
+              <li>Edit
+                <ul>
+                  <li>Protocol name</li>
+                  <li>Default number of days after which a patient is expected to visit</li>
+                  <li>Add, edit or delete drugs (name of the drug, RxNorm code, dosage) that
+                    are associated with a protocol</li>
+                </ul>
+              </li>
+              <li>Delete a protocol</li>
+            </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left">View overdue list</td>
       <td style="text-align:left">
         <ul>
