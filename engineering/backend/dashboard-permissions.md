@@ -29,11 +29,12 @@ Admin access to the dashboard is determined by the set of permissions listed bel
       <td style="text-align:left">View reports</td>
       <td style="text-align:left">
         <ul>
-          <li><b>Cohort report (Dashboard &gt; District)</b>
+          <li><b>District cohort page (Dashboard &gt; District)</b>
             <ul>
               <li>View the district cohort report</li>
               <li>View facility activity</li>
               <li>Click on a facility to view the facility cohort report</li>
+              <li>Download WhatsApp graphic from the district page or the facility page</li>
             </ul>
           </li>
         </ul>
@@ -84,7 +85,7 @@ Admin access to the dashboard is determined by the set of permissions listed bel
       <td style="text-align:left">Manage facility groups</td>
       <td style="text-align:left">
         <ul>
-          <li><b>Facility group page (Manage &gt; facilities)</b>
+          <li><b>Facility group page (Manage &gt; Facilities)</b>
             <ul>
               <li>Add a new facility group</li>
               <li>Edit the name, description of a facility group</li>
@@ -99,7 +100,7 @@ Admin access to the dashboard is determined by the set of permissions listed bel
       <td style="text-align:left">Manage facilities</td>
       <td style="text-align:left">
         <ul>
-          <li><b>Facility page (Manage &gt; facilities)</b>
+          <li><b>Facility page (Manage &gt; Facilities)</b>
             <ul>
               <li>Add a new facility</li>
               <li>Add facilities in bulk by uploading a CSV</li>
@@ -147,6 +148,18 @@ Admin access to the dashboard is determined by the set of permissions listed bel
               <li>View list of all registered patients</li>
               <li>Update the result of a follow-up (once this is updated, the patient is
                 removed from this list)</li>
+            </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Download patient line list</td>
+      <td style="text-align:left">
+        <ul>
+          <li><b>Facility cohort page (Dashboard &gt; District &gt; Facility)</b>
+            <ul>
+              <li>Download list of all patients registered at a facility</li>
             </ul>
           </li>
         </ul>
