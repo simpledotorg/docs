@@ -33,6 +33,7 @@ Following are the tests that we've conducted with users who work at public healt
 
 | Date | Topic | Location |
 | :--- | :--- | :--- |
+| October 2019 | [🔒](https://drive.google.com/open?id=16-h9YaZf0rFZXbrGHll2ouWXNUiRzwFytuFZwh4Dvks)[Test two designs of patient summary with the visit model](https://docs.google.com/document/d/1LcyGpnpAjbJYnubey9LuXMT9iHUvQPzX7_cVI9dJ3Sw/edit#) | Obvious office, Bangalore |
 | June 2019 | [🔒](https://drive.google.com/open?id=16-h9YaZf0rFZXbrGHll2ouWXNUiRzwFytuFZwh4Dvks)[Onboarding prototype: tutorial video, entering trial patient and coachmarks for search](https://drive.google.com/open?id=1cKwczbw7m1cd95pGFnWAmaBASqRV06H9wjucUG6mNs0) | Obvious office, Bangalore |
 | May 2019 | [🔒](https://drive.google.com/open?id=16-h9YaZf0rFZXbrGHll2ouWXNUiRzwFytuFZwh4Dvks)[Onboarding prototype: Take a tour, and value propositions](https://drive.google.com/open?id=1wnTedcEHAyDuYAJEU6SoQHp9VTnWBdp47x1zUv7HBxY) | Obvious office, Bangalore |
 | April 2019 | [🔒](https://drive.google.com/open?id=16-h9YaZf0rFZXbrGHll2ouWXNUiRzwFytuFZwh4Dvks)[Onboarding prototype: Entering a trial patient, and value propositions](https://drive.google.com/open?id=1oQhTDWY3ffuKdZTYkSy4h-dG1SnmmXx8pJmw35AY0nM) | Various hospitals, Bangalore |
