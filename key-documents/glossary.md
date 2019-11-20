@@ -72,7 +72,7 @@ Please add new terms as you come across them. If you don't know what something m
   * Users outside a facility group do not sync data amongst themselves
 * **Follow up list:** List of all patients who have missed their appointment \(including ones without a phone number\). Displayed on the web dashboard.
 * **ICMR:** Indian Council of Medical Research
-* **IHMI/IHCI:** Indian Hypertension Management Initiative, now called India Hypertension Congtrol Initiative
+* **IHMI/IHCI:** Indian Hypertension Management Initiative, now called India Hypertension Control Initiative
 * **Overdue list:** List of patients who have a phone number and who have missed their appointment. Displayed on the nurses' phone.
 * **Organization:** One or more facility groups that are part of a single administrative unit
 * **Protocol:** Name\(s\) and dosage\(s\) of medication recommended to be prescribed to a patient based on their current BP and BP history.
