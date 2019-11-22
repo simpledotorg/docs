@@ -24,8 +24,7 @@ Each changelog section can have upto **three** different sub-sections, based on 
 
 ## Example changelog section
 
-{% code-tabs %}
-{% code-tabs-item title="CHANGELOG.MD" %}
+{% code title="CHANGELOG.MD" %}
 ```text
 ## 2019-01-15-1000
 ### Features
@@ -41,6 +40,5 @@ Each changelog section can have upto **three** different sub-sections, based on 
 ### Fixes
 - Fixed crash when there are more than 1000 patients matching the search term.
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
