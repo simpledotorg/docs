@@ -16,7 +16,7 @@ Admin access to the dashboard is determined by the set of permissions listed bel
         <ul>
           <li><b>Users page (Manage &gt; Users)</b>
             <ul>
-              <li>View user details and recent BPs recorded by them</li>
+              <li>View user details</li>
               <li>Allow or deny access to a user</li>
               <li>Edit the user name or registration facility of a user</li>
               <li>Delete a user</li>
