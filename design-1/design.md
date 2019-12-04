@@ -21,7 +21,7 @@ All of the user interface elements for the Android app and some of the Simple da
 
 ### Print materials
 
-* [BP Passports](https://www.dropbox.com/s/k95pspwvh8vikx4/BP%20Passport%20Punjabi%20v10%20%E2%80%94%20Sample.pdf?dl=0) that are given to patients as an ID and a record of recent BPs and medicines
+* [BP Passports](https://www.dropbox.com/s/k95pspwvh8vikx4/BP%20Passport%20Punjabi%20v10%20%E2%80%94%20Sample.pdf?dl=0) that are given to patients as an ID and a record of recent BPs and medicines  ![](../.gitbook/assets/img_20191204_173454_2.jpg) ![](../.gitbook/assets/img_20191204_173700_2.jpg) ![](../.gitbook/assets/img_20191204_173738_2.jpg) 
 * [How to take a BP poster](https://www.dropbox.com/s/vwi7k8gvnuf90xy/Blood-Pressure-Measurement-Checklist-007-CC0.pdf?dl=0) \(available in several other languages\)
 * [App usage guide booklet](https://www.dropbox.com/s/8buicih4em2qjcg/Simple%20App%20Guide%20v1.2.pdf?dl=0) given to new users ![](../.gitbook/assets/front-cover2.jpg) ![](../.gitbook/assets/quick-guide2.jpg) 
 * **Blood Pressure Checklist**
