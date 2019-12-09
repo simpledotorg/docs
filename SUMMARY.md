@@ -33,6 +33,7 @@
   * [Dashboard permissions](engineering/backend/dashboard-permissions.md)
   * [Major flows](engineering/backend/major-flows.md)
 * [Localization](engineering/localization/README.md)
+  * [Android](engineering/localization/android.md)
   * [Adding/Editing translations for a project](engineering/localization/adding-editing-translations-for-a-project.md)
   * [Reviewing a translation](engineering/localization/reviewing-a-translation.md)
 
