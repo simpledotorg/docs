@@ -77,7 +77,9 @@ Our integration branch is `master`: this is where PRs are merged, and release br
   * Click on _Manage_ on the "Production Track"
   * Click on _Create Release_ to create a new release draft
   * Click on _Add From Library_, which will open the APK Library, where you will find the APK that Bitrise has just created and pushed
-  * Copy the release notes from the CHANGELOG.md file
-  * Publish the release!
+  * Copy fixes and features from release notes from the CHANGELOG.md file
+  * Publish the release to 25% of users on Monday
+  * If everything goes alright, release to 100% of users on Thursday
+  * Post the details of this release to the `#releases` Slack channel to inform the rest of the organisation
 * Finally, on the `master` branch, the "Demo release" section in [CHANGELOG.md](https://github.com/simpledotorg/simple-android/blob/master/CHANGELOG.md) must be updated with the version name of the APK on the Play Store.
 
