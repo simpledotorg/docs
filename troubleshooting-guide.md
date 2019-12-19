@@ -94,7 +94,7 @@ description: >-
 
 * Ensure that the phone number they are trying to call is correct \(has correct number of digits\)
 * Ask the users to wait patiently while the call is being connected.
-* Inform the users that they will hear a funny beeping noise \( when the call is being connected\) which is completely normal. They should not hang up.
+* Inform the users that they will hear a funny beeping noise \(when the call is being connected\) which is completely normal. They should not hang up.
 
 ### 6. "Will I be charged for the calls made to the patients"?
 
@@ -105,11 +105,11 @@ description: >-
 
 ### 7. "I am not able to see recent patients"
 
-* If the users have recently downloaded the app, then they must be approved in order to be able to see recent patients.
-* If there are no patients recorded in the facility, they will not be able to see them.
+* If the users have recently downloaded the app, they must be approved in order to be able to see recent patients.
+* If there are no patients recorded in the facility, the recent patients list will be empty.
 * Ask the users to tap on the cloud icon on the home screen to refresh the recent patients list.
-* Ensure that their phone is connected to internet.
-* The first time when the app syncs data, it can take some time.
+* Ensure that the phone is connected to internet.
+* The first time when the app syncs data, it can take some time for the recent patients list to load.
 
 ### 8. "My data is not syncing"
 
@@ -119,39 +119,37 @@ description: >-
 ### 9. "I am not able to download the app"
 
 * Type ‘**simple resolve**’ on Google Play Store to download the app.
-* User must be using any modern Android phone or tablet, version 5 or above.  Ask them to check their Android phone version- Go to Settings -&gt;scroll all the way down , they will see - ‘About Phone’. Tap on it to check the phone version.
+* User must be using any modern Android phone or tablet, version 5 or above.  Ask them to check their Android phone version: Go to Settings -&gt; scroll all the way down, look for ‘About Phone’. Tap on it to check the phone version.
 
 ### 10. "What is the meaning of patient at high risk"
 
-* Patients who are overdue by more than **30 days** and had their last BP **greater than 160/100** or has previously had a heart attack / stroke, or is suffering from diabetes or kidney disease are critical and at high risk of stroke. They must be called for check-up.
+* Patients who are overdue by more than **30 days** and had their last BP **greater than 160/100** or has previously had a heart attack or stroke, or is suffering from diabetes or kidney disease are critical and at high risk of stroke.
 
-### 11. "For what values of BP is the patient considered 'hypertensive'?
+### 11. "What is considered High BP in Simple?"
 
-* When the patient's  $$BP >= 140/90$$ 
+* $$BP >= 140/90$$ 
 
 ### 12. "How can I remove the prescribed medicines"
 
-* Inform the users that patients must not stop taking hypertension medicines.
-* If they wish to change the medicines, then ask them to tap on the medicine name and select 'NONE' to remove it.
-* Select a different medicine \(prescribed by the doctor\), select dosage and tap on 'SAVE'.
+* To remove a current medicine, tap on the medicine name and select 'NONE'.
 
-### 13. "Our BP Passports are over, how to request for new passports ?"
+### 13. "We need more BP Passports"
 
 * Ask the users to ensure they have 2 boxes of BP passport in reserve at all times.
-* In case they do not have BP passports, they can still continue to register & update patient BP's using 'SEARCH'.
+* In case they do not have BP passports, they can still continue to register & update patient BPs using 'SEARCH'.
 * **Call Praveen** to place a new request for BP passports.
 * It takes about a month for the passports to arrive after placing a request.
 
-### 14. "Should I issue a new BP passport to old patients as well ?"
+### 14. "Should I issue a new BP passport to old patients as well?"
 
-* Yes, ask the users to issue BP passport to all hypertensive patients and discontinue the old IHMI cards.
+* Yes, ask the users to issue BP Passports to all hypertensive patients and discontinue the old IHMI patient cards.
 
-### 15. "**I want to change my handset, but continue to use Simple with same mobile number. How can I do it ?"**
+### 15. "**I want to change my handset, but continue to use Simple with same mobile number. How can I do it?"**
 
 * Download the ‘Simple’ app on the new handset from Google Play store.
-* Ensure that user's new handset has the same sim card as their registered mobile number with ‘Simple’.
-* Ask them to open the ‘Simple’ app & tap on ‘Get started’**.**
-* They need to enter their mobile number & then their 4-digit security PIN
+* Ensure that user's new handset has the same SIM card as their registered mobile number with ‘Simple’.
+* Ask them to open the ‘Simple’ app and tap on ‘Get started’**.**
+* Enter the mobile number and then their 4-digit security PIN
 * After successfully entering the correct PIN, they will see the following message:
 
 ### 
@@ -161,22 +159,22 @@ description: >-
 * Ask them to tap on ‘GOT IT’ and they can start using Simple as they normally do.
 * They will be logged out of their old device.
 
-### 16. "**Can I use the same mobile number in two handsets to use the simple app ?"**
+### 16. "**Can I use the same mobile number with two handsets to use the Simple app?"**
 
-* No, users cannot use two handsets to use Simple.
+* No, users cannot use two handsets with the same phone number to use Simple.
 * Users can only be logged in on one device at a time.
 
-### 17. "**I selected the wrong facility during installation and registration process in the Simple app. What should I do ?"**
+### 17. "**I selected the wrong facility during installation and registration process in the Simple app. What should I do?"**
 
-* The CVHO is requested to immediately get in touch with Praveen and share user's details to get the facility corrected.
+* The CVHO is requested to immediately get in touch with Praveen and share the user's details to get the facility corrected.
 
 ### 18. "**I am transferred to another facility, how can I get it changed ?"**
 
-* Users can change it in the app themselves. Tap on the icon next to current facility name on the home screen , and select another facility.
-* If users are not able find the facility name , then their CVHO is requested to immediately get in touch with Praveen and share user's details to get the facility changed.
+* If the user transferred within the district, they can change it in the app themselves. Tap on the icon next to current facility name on the home screen , and select another facility.
+* If users are not able find the facility name, then their CVHO is requested to immediately get in touch with Praveen and share user's details to get the facility changed.
 
 ### 19. "**If a patient is already registered in one facility and visits another facility, should he/she be registered as a new patient again ?"**
 
-* If the patient is already registered in another facility, he/she **must not be registered again in the new facility.**
+* If the patient is already registered in another facility, they **should not be registered again in the new facility.**
 * However, their details like - blood pressure, medicines etc. can be updated normally.
 
