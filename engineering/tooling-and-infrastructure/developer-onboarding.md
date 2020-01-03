@@ -2,7 +2,7 @@
 description: Onboarding and offboarding guide for the Simple project
 ---
 
-# Developer Onboarding
+# Developer onboarding
 
 Developers working on Simple will be granted access to various services. This access will be revoked when the developer is no longer working on the project.
 

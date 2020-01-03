@@ -2,7 +2,7 @@
 description: What services does Simple need to function technically?
 ---
 
-# Service Dependencies
+# Service dependencies
 
 ### Simple \(Android app\)
 
