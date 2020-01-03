@@ -32,6 +32,8 @@ All back-end developers need the following additional accounts:
 * [New Relic](https://account.newrelic.com/accounts/2000380/users)
 * [Exotel](https://my.exotel.com/auth/logout)
 * [Metabase](https://metabase.simple.org)
+* SMS delivery services
+  * [Twilio](https://www.twilio.com/login)
 
 #### Deployment & SSH Keys
 
