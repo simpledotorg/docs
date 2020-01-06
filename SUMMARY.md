@@ -20,7 +20,7 @@
   * [Environments](engineering/tooling-and-infrastructure/environments.md)
   * [Pivotal Tracker \(Guide\)](engineering/tooling-and-infrastructure/pivotal-tracker-howto.md)
   * [Service dependencies](engineering/tooling-and-infrastructure/service-dependencies.md)
-  * [Developer onboarding](engineering/tooling-and-infrastructure/developer-onboarding.md)
+  * [Developer on and offboarding](engineering/tooling-and-infrastructure/developer-onboarding.md)
 * [Release notes](engineering/publishing-release-notes/README.md)
   * [Android release notes](engineering/publishing-release-notes/android-release-notes.md)
 * [Android](engineering/android/README.md)

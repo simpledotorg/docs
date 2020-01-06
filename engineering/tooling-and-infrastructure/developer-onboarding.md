@@ -2,7 +2,7 @@
 description: Onboarding and offboarding guide for the Simple project
 ---
 
-# Developer onboarding
+# Developer on and offboarding
 
 Developers working on Simple will be granted access to various services. This access will be revoked when the developer is no longer working on the project.
 
@@ -27,6 +27,7 @@ All Android developers need the following additional accounts:
 * [Bitrise](https://app.bitrise.io/organization/61c4ea18d9174f07#/people)
 * [Google Play Store Console](https://play.google.com/apps/publish/?account=7858016656031097057#AdminPlace)
 * [Heap Analytics](https://heapanalytics.com/app/account)
+* [Mixpanel](https://mixpanel.com/)
 
 ### Accounts for Back-end developers
 
