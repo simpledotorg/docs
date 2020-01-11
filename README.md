@@ -6,7 +6,7 @@ description: >-
 
 # What is Simple?
 
-This is a truly free, [open source project](https://www.simple.org/license/) under an MIT License. [Simple](http://simple.org) has two main components: a mobile app for Android and a secure web-based Dashboard.
+This is a truly free, [open source project](https://www.simple.org/license/). [Simple](http://simple.org) has two main components: a mobile app for Android and a secure web-based Dashboard.
 
 {% tabs %}
 {% tab title="📱 Simple Android App" %}
