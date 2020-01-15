@@ -7,7 +7,8 @@ description: >-
 # Design
 
 All of the user interface elements for the Android app and some of the Simple dashboard are now on Figma. Please feel free to 'borrow' or 'steal' anything from our public Figma project. We consider it to be public domain or CC0:  
-[**https://www.figma.com/file/kONxBLSXwcQDnV7ya4hIXA/Simple-App**](https://www.figma.com/file/kONxBLSXwcQDnV7ya4hIXA/Simple-App)\*\*\*\*
+Designs for app in use - [**https://www.figma.com/file/vmZlmlFSCOrEYzTMkqsNB8/Simple-Production?node-id=2206%3A155**](https://www.figma.com/file/vmZlmlFSCOrEYzTMkqsNB8/Simple-Production?node-id=2206%3A155)  
+Designs in exploration - [**https://www.figma.com/file/kONxBLSXwcQDnV7ya4hIXA/Simple\(Exploration\)?node-id=3686%3A36070**](https://www.figma.com/file/kONxBLSXwcQDnV7ya4hIXA/Simple%28Exploration%29?node-id=3686%3A36070) ****
 
 ### Android app
 
