@@ -4,7 +4,10 @@ description: Onboarding and offboarding guide for the Simple project
 
 # Developer on and offboarding
 
-Developers working on Simple will be granted access to various services. This access will be revoked when the developer is no longer working on the project.
+Developers working on Simple will be granted access to various services. This access will be revoked when the developer
+is no longer working on the project. Send an email to [access@simple.org](mailto:access@simple.org) including the list
+of services you need access to and the email address you'd like to use to access them. You can find information on the
+services you need access to below.
 
 ## What accounts do you need?
 
@@ -37,10 +40,11 @@ All back-end developers need the following additional accounts:
 * [New Relic](https://account.newrelic.com/accounts/2000380/users)
 * [Exotel](https://my.exotel.com/auth/logout)
 * [Metabase](https://metabase.simple.org)
+* [Semaphore](https://semaphoreci.com/resolvetosavelives)
 * SMS delivery services
   * [Twilio](https://www.twilio.com/login)
 
 #### Deployment & SSH Keys
 
-Rails developers have their public SSH key added to the [`deployment`](https://github.com/simpledotorg/deployment) repository so that they can provision servers with Ansible and the Rails app via capistrano.
-
+Rails developers have their public SSH key added to the [`deployment`](https://github.com/simpledotorg/deployment)
+repository so that they can provision servers with Ansible and the Rails app via capistrano.
