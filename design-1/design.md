@@ -28,7 +28,7 @@ Designs in exploration - [Here](%20https://www.figma.com/file/kONxBLSXwcQDnV7ya4
 * QR code booklets are provided to the facilities that already maintain a booklet for each patients ![](../.gitbook/assets/qr_code_stickers.jpg) ![](../.gitbook/assets/sticker_peeled.jpg) 
 * [App usage guidebook](https://drive.google.com/a/resolvetosavelives.org/file/d/1MM2dEpUBgE3EyZS9CrzuxgjHqIQa3eb1/view?usp=sharing) given to new users ![](../.gitbook/assets/front-cover2.jpg) ![](../.gitbook/assets/quick-guide2.jpg) 
 * **Blood Pressure Checklist**
-  * [PDF](https://www.dropbox.com/s/btqawupzl8m581r/Blood-Pressure-Measurement-Checklist-012-CC0.pdf?dl=0) for editing in Adobe Illustrator, Sketch \(979kb\)
+  * [PDF](https://drive.google.com/a/resolvetosavelives.org/file/d/10stzyT8OM3BxpeX2qAJLjhrGF6jkqu_C/view?usp=sharing) for editing in Adobe Illustrator, Sketch \(979kb\)
   * [Google Slides](https://docs.google.com/presentation/d/1xIZoc5J_ouOHqPZToDq1UIEwyWBO85rjIELM6QO1nes/edit?usp=sharing) ****version
   * [Powerpoint](https://www.dropbox.com/s/mxpxgtkw5l5uq9j/Blood-Pressure-Measurement-Checklist-012-CC0.pptx?dl=0) \(1.6 MB\) 
   * [Affinity Designer](https://www.dropbox.com/s/qdbv9jg6d6fe8r9/BP%20checklist%20illustration.afdesign?dl=0) \(173 KB version 1.7\)
