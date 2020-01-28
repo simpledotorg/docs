@@ -123,7 +123,7 @@ description: >-
 
 ### 10. "What is the meaning of patient at high risk"
 
-* Patients who are overdue by more than **30 days** and had their last BP **greater than 160/100** or has previously had a heart attack or stroke, or is suffering from diabetes or kidney disease are critical and at high risk of stroke.
+* Patients who are overdue and had their last BP **greater than 160/100** or if their last BP was &gt; 140/90 and the patiet has a history of heart attack or stroke they are labelled "high risk".
 
 ### 11. "What is considered High BP in Simple?"
 
