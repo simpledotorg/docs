@@ -17,6 +17,7 @@ Use [this template](https://docs.google.com/document/d/1hU47X_53_qIQQFh3Zvnjxwsj
 * 📝[ Diabetes \(DM\) support in Simple](https://docs.google.com/document/d/1nzGV5qhuB8gB6nFaAvgCu3jqOKB8uH-KzSeUWi9jm70/edit#heading=h.q8zm89ru7j26) \[Exploration\]
 * 💬 [Notifications framework](https://docs.google.com/document/d/1ExGNrcLZ5Fpd1eJLWNuqyAFUWY-rdKg6GeMX6xOdQfs/edit#heading=h.q8zm89ru7j26) to remind patients to return to care
 * 💬 [Notifications: Who to remind for follow-up?](https://docs.google.com/document/d/1SeZKlwqAy6PnAuUVLRYY-veA5mNDV1CNiOxMrxrEYbM/edit#heading=h.6qyh336imsdz)
+* 🚨 ["High Risk" Patients in Overdue List](https://docs.google.com/document/d/1J68HFR1FAzN2LuHv3NKaGa82wb64Z3eHPvC9JtSrF0g/edit#)
 
 ### Feature suggestions from the team
 
