@@ -15,7 +15,6 @@ Use [this template](https://docs.google.com/document/d/1hU47X_53_qIQQFh3Zvnjxwsj
 * 🗃️ [BP Passport ID edge cases](https://docs.google.com/document/d/1iu0EBS3H-yCzphTmZ208qwTishztri2mBfBmXFgeSlI/edit)
 * [📅](https://emojipedia.org/calendar/) [Date formats in Simple](https://docs.google.com/document/d/1DrnOVQQn2WY6eiA_dfIwYCzNJ6qqY8_p_8erfIOWD44/edit?usp=sharing)
 * 📝[ Diabetes \(DM\) support in Simple](https://docs.google.com/document/d/1nzGV5qhuB8gB6nFaAvgCu3jqOKB8uH-KzSeUWi9jm70/edit#heading=h.q8zm89ru7j26) \[Exploration\]
-* 😟 ["High risk" definition for Overdue Patients list](https://raw.githubusercontent.com/simpledotorg/documentation/master/simple.org%20major%20flows/high%20priority%20label%20in%20overdue.jpg)
 * 💬 [Notifications framework](https://docs.google.com/document/d/1ExGNrcLZ5Fpd1eJLWNuqyAFUWY-rdKg6GeMX6xOdQfs/edit#heading=h.q8zm89ru7j26) to remind patients to return to care
 * 💬 [Notifications: Who to remind for follow-up?](https://docs.google.com/document/d/1SeZKlwqAy6PnAuUVLRYY-veA5mNDV1CNiOxMrxrEYbM/edit#heading=h.6qyh336imsdz)
 
