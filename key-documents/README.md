@@ -56,6 +56,7 @@ Use [this template](https://docs.google.com/document/d/1hU47X_53_qIQQFh3Zvnjxwsj
 ### Translations
 
 * [Translations spreadsheet](https://docs.google.com/spreadsheets/d/1rNFcv6FUCkd-K4SG4UkggPh2QBMAgkA5i9M-MdoZw30/edit?usp=sharing) \(Google Docs\)
+* [Translation guide](https://docs.google.com/document/d/1v5siRSZD3YgnWpPJ9dgEvt7Z7x_O-9mc0mh78y0kUD0/edit?usp=sharing) for the Android app
 
 ### Privacy documents
 
