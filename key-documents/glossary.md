@@ -8,13 +8,11 @@ description: Common terms you'll run into on the project.
 Please add new terms as you come across them. If you don't know what something means, please ask — there's no embarrassment in not knowing a term.
 {% endhint %}
 
-### Roles
+## Roles
 
-**Admin:** Anyone with access to the back-end dashboard, roles and permissions are listed below. 
+**Admin:** Anyone with access to the back-end dashboard, roles and permissions are listed below.
 
-* **Owner**: Simple tech team members.  
-  Has all permissions listed below:
-
+* **Owner**: Simple tech team members. Has all permissions listed below:
   * View Dashboard for all Organizations
   * View and Download the Overdue list \(facility-wise\)
   * View and update Adherence follow-ups
@@ -23,30 +21,21 @@ Please add new terms as you come across them. If you don't know what something m
   * Manage Protocols
   * Manage Users and approve / deny their access to the Simple mobile app 
   * Search Audit Logs
-
-* **Organization Owner**: Administrators for one or more Organizations, e.g. PATH admins.  
-  Has the same permissions as **Owner**, but limited to the organizations they control. They also can't add organizations.
-
-* **Supervisor**: Program supervisors, primarily CVHO and STS.  
-  Permissions limited to:
-
+* **Organization Owner**: Administrators for one or more Organizations, e.g. PATH admins. Has the same permissions as **Owner**, but limited to the organizations they control. They also can't add organizations.
+* **Supervisor**: Program supervisors, primarily CVHO and STS. Permissions limited to:
   * View Dashboard for Facilities that they have access to
   * View and Download the Overdue list \(facility-wise\)
   * View Facilities they have access to
   * Manage Users and approve / deny their access to the Simple mobile app
-
-* **Analyst**: People who just need dashboard data, e.g. an epidemiologist or health expert  
-  Permissions are read-only, limited to:
-
+* **Analyst**: People who just need dashboard data, e.g. an epidemiologist or health expert Permissions are read-only, limited to:
   * View Dashboard for Facilities they have access to \(District page only, not User page
   * No overdue list or management access
-
 * **Counselor**: Call center employee or counselor who will follow up with the patient. Permissions limited to:
   * View and Update the Overdue list
   * View and Update Adherence follow-ups
   * No dashboard or management access
 
-### Terms
+## Terms
 
 * **Blood Pressure \(BP\):** Combination of systolic and diastolic BP readings in mm Hg
 

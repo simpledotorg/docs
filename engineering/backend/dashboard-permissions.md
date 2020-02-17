@@ -14,6 +14,14 @@ Admin access to the dashboard is determined by the set of permissions listed bel
       <td style="text-align:left">Approve health workers</td>
       <td style="text-align:left">
         <ul>
+          <li>
+            <p><b>Dashboard</b>
+            </p>
+            <ul>
+              <li>Allow or deny access to users</li>
+            </ul>
+            <p></p>
+          </li>
           <li><b>Users page (Manage &gt; Users)</b>
             <ul>
               <li>View user details</li>

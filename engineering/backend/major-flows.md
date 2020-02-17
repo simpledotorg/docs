@@ -26,7 +26,7 @@
 
 ### "High risk" label in Overdue list
 
-![](../../.gitbook/assets/image%20%282%29.png)
+![](../../.gitbook/assets/overdue-high-risk-label.jpg)
 
 ### Schedule next visit
 
