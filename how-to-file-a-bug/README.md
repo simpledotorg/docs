@@ -4,6 +4,12 @@ description: We appreciate your help in making Simple better for everyone!
 
 # Filing a bug
 
+## Guide for field surveillance teams
+
+If you use Simple in the field and want to help the tech teams behind Simple with useful bug reports, please reference this helpful guide on how to triage and document issues:
+
+📄 [How to file a bug report or raise an issue](https://docs.google.com/document/d/1bJniRgJL8ef_SWWcwdLi1WASlez0ZHLH556YRDA9mDE/edit#heading=h.hucspecdvz3q)
+
 ## File an "Issue" on Github
 
 {% hint style="info" %}
@@ -14,7 +20,7 @@ To report a bug, please create an "Issue" on Github. If you don't know what that
 
 🖥️ File a bug about [the web-based Dashboard](https://github.com/simpledotorg/simple-server/issues)
 
-## Filing a useful bug report
+## Filing a useful bug report on Github
 
 1. Click on _New issue_
 2. Define the bug succinctly in the title. For example: _App freezes when user clicks 'Register as new patient'_
