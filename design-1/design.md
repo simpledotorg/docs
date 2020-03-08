@@ -14,7 +14,7 @@ Designs in exploration - [Here](%20https://www.figma.com/file/kONxBLSXwcQDnV7ya4
 
 ### Android app
 
-* [Zeplin](https://app.zeplin.io/project/5b9a49113dbe7958c1d3fde6) for a full collection of UI screens
+* [Zeplin](https://scene.zeplin.io/project/5b9a49113dbe7958c1d3fde6) for a full collection of UI screens
 * [Screenshots on our website](https://simple.org/screens) for a curated list of screens with brief explanations
 * [UI evolution document](https://docs.google.com/document/d/1z-BCFZ7fpAUvAd55mIiPJBQBLQ9UusU-rrwmvhu0CMg/edit?usp=sharing) to see the iterations that the app has gone through and what we have observed for each of them.
 
