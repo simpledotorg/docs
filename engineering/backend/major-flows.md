@@ -20,13 +20,13 @@
 
 ![](../../.gitbook/assets/image%20%288%29.png)
 
-### Overdue Patient List
+### Overdue Patients List
 
 ![](../../.gitbook/assets/overdue-list%20%281%29.jpg)
 
-### "High risk" label in Overdue list
+### "High risk" label in the Overdue Patients List
 
-![](../../.gitbook/assets/overdue-high-risk-label.jpg)
+![High risk label in the Overdue list](../../.gitbook/assets/high-risk-label-in-overdue.jpg)
 
 ### Schedule next visit
 
