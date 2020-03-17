@@ -16,6 +16,8 @@ All developers need access to the following services:
 * [GitBook](https://app.gitbook.com/@simpledotorg/)
 * [Zeplin](https://app.zeplin.io/projects)
 * [Sentry](https://sentry.io/organizations/resolve-to-save-lives/issues/)
+* [Security Scorecard](https://securityscorecard.com/)
+* 1Password
 * Added to `team@simple.org` in [Google groups](https://groups.google.com/a/simple.org/forum/#!forum/team)
   * This also grant access to the shared Google Drive
 * Grant access to the app and dashboard as required
