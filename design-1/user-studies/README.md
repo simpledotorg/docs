@@ -15,6 +15,9 @@ A mapping of a staff nurse's first-time experience with Simple and her typical w
 [Journey map: Patients](https://drive.google.com/open?id=1mploce9-G8PSd-oabUqrA0ieIGL7oacO)  
 Some of the patient workflows as observed at public health clinics.
 
+[🔒](https://drive.google.com/open?id=16-h9YaZf0rFZXbrGHll2ouWXNUiRzwFytuFZwh4Dvks)[Persona: Community Health Officer  
+](https://docs.google.com/document/d/1JD-SdzRyg75-qW-5WBSVLbdnzfkAgryYEQPIbv8bY_I/edit)Persona of a Community Health Officer, who manages a Health and Wellness Centre. 
+
 [Common user types of Simple](https://drive.google.com/open?id=1Z33sTuCUU2AQ0CNvuy7aWJAIYDOLWfwXljhMCoEP_Jo)  
 A list of the various users of Simple. These range from the patient, and staff nurse, to the Senior Medical Officer, and health minister.  
   
