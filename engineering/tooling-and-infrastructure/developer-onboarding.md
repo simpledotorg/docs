@@ -42,6 +42,7 @@ All back-end developers need the following additional accounts:
 * [Semaphore](https://semaphoreci.com/resolvetosavelives)
 * SMS delivery services
   * [Twilio](https://www.twilio.com/login)
+* [Cloudflare](https://www.cloudflare.com)
 
 #### Deployment & SSH Keys
 
