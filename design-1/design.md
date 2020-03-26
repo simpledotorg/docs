@@ -6,6 +6,10 @@ description: >-
 
 # Design
 
+### Design principles and patterns
+
+The design principles listed [here](https://docs.google.com/document/d/1SOfxi4KZZ0QuyJV6Wv6A6fCjRjza9DlaBb-_wg2WON8/edit#bookmark=kix.lm0fs2d9h01n) are a result of many research findings overtime and they continue to evolve as we design for new use cases and learn more about our users.
+
 ### Figma files
 
 All of the user interface elements for the Android app and some of the Simple dashboard are now on Figma. Please feel free to 'borrow' or 'steal' anything from our public Figma project. We consider it to be public domain or CC0:  
