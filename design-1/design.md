@@ -28,7 +28,7 @@ Designs in exploration - [Here](%20https://www.figma.com/file/kONxBLSXwcQDnV7ya4
 
 ### Print materials
 
-* [BP Passports](https://www.dropbox.com/s/k95pspwvh8vikx4/BP%20Passport%20Punjabi%20v10%20%E2%80%94%20Sample.pdf?dl=0) that are given to patients as an ID and a record of recent BPs and medicines ![](../.gitbook/assets/img_20191204_173454_2.jpg) ![](../.gitbook/assets/img_20191204_173700_2.jpg) ![](../.gitbook/assets/img_20191204_173738_2.jpg) 
+* [BP Passports](https://www.dropbox.com/s/k95pspwvh8vikx4/BP%20Passport%20Punjabi%20v10%20%E2%80%94%20Sample.pdf?dl=0) that are given to patients as an ID and a record of recent BPs and medicines.  Here are the [printing requirements](https://docs.google.com/document/d/19YPdPkMGppi7046uuNlxMCKrLaNiZRGTpiOgMHTSWFM/edit#) once you have all BP passports with unique QR codes in a sharable PDF format.   ![](../.gitbook/assets/img_20191204_173454_2.jpg) ![](../.gitbook/assets/img_20191204_173700_2.jpg)![](../.gitbook/assets/img_20191204_173738_2.jpg)  
 * QR code booklets are provided to the facilities that already maintain a booklet for each patients ![](../.gitbook/assets/qr_code_stickers.jpg) ![](../.gitbook/assets/sticker_peeled.jpg) 
 * [App usage guidebook](https://drive.google.com/a/resolvetosavelives.org/file/d/1MM2dEpUBgE3EyZS9CrzuxgjHqIQa3eb1/view?usp=sharing) given to new users ![](../.gitbook/assets/front-cover2.jpg) ![](../.gitbook/assets/quick-guide2.jpg) 
 * **Blood Pressure Checklist**
