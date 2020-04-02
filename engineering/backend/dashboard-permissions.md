@@ -34,6 +34,21 @@ Admin access to the dashboard is determined by the set of permissions listed bel
       </td>
     </tr>
     <tr>
+      <td style="text-align:left">View &quot;My facilities&quot;</td>
+      <td style="text-align:left">
+        <ul>
+          <li><b>My facilities page</b> 
+            <ul>
+              <li>Overview</li>
+              <li>BP control</li>
+              <li>Missed visits</li>
+              <li>Registrations</li>
+            </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left">View reports</td>
       <td style="text-align:left">
         <ul>
@@ -42,6 +57,7 @@ Admin access to the dashboard is determined by the set of permissions listed bel
               <li>View the district cohort report</li>
               <li>View facility activity</li>
               <li>Click on a facility to view the facility cohort report</li>
+              <li>Download cohort reports</li>
               <li>Download WhatsApp graphic from the district page or the facility page</li>
             </ul>
           </li>
