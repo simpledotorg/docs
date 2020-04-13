@@ -25,7 +25,7 @@ Sandbox app is only accessible to the Contributors team, and you have to be invi
 {% endhint %}
 
 * Ask someone from the Contributors team to give your Play Store email address access to the app. Unless this happens, you will not be able to find the app on the Store.
-* Once given access, you should be able to join the [Sandbox app access program](https://play.google.com/apps/testing/org.simple.clinic.sandbox).
+* Once given access, you should be able to join the [Sandbox app access program](https://play.google.com/apps/internaltest/4699036784677958916).
 * After you've joined, you should be able to see the app [on the Play Store](https://play.google.com/store/apps/details?id=org.simple.clinic.sandbox).
 * While making a new account in the app, provide a correct phone number: you will receive a verification OTP SMS on it.
 * When choosing facilities, pick any facility. It doesn't really matter.
