@@ -48,6 +48,7 @@ Please add new terms as you come across them. If you don't know what something m
 * **Business ID:** IDs other than BP passport that may be associated with a patient \(such as Driving License, State Health ID etc.\)
 * **Call list:** Used interchangeably with overdue list
 * **Clinic:** Used interchangeably with Facility
+* **DM:** Diabetes mellitus \(the clinical term for diabetes\)
 * **Facility:**
   * **Sub-centre**
   * **PHC** \(Primary Health Centre\)
@@ -60,6 +61,7 @@ Please add new terms as you come across them. If you don't know what something m
   * Users within a facility group sync patient data amongst themselves
   * Users outside a facility group do not sync data amongst themselves
 * **Follow up list:** List of all patients who have missed their appointment \(including ones without a phone number\). Displayed on the web dashboard.
+* **HTN:** Hypertension
 * **ICMR:** Indian Council of Medical Research
 * **IHMI/IHCI:** Indian Hypertension Management Initiative, now called India Hypertension Control Initiative
 * **Overdue list:** List of patients who have a phone number and who have missed their appointment. Displayed on the nurses' phone.
