@@ -15,6 +15,7 @@ All developers need access to the following services:
 * [Pivotal Tracker](https://www.pivotaltracker.com/n/projects/2184102)
 * [GitBook](https://app.gitbook.com/@simpledotorg/)
 * [Zeplin](https://app.zeplin.io/projects)
+* [Figma](https://www.figma.com)
 * [Sentry](https://sentry.io/organizations/resolve-to-save-lives/issues/)
 * [Security Scorecard](https://securityscorecard.com/)
 * 1Password
