@@ -32,5 +32,13 @@
 
 {% embed url="https://zoom.us" %}
 
+## Design
+
+{% embed url="https://figma.com" %}
+
+{% embed url="https://zeplin.io/" %}
+
+{% embed url="https://www.protopie.io/" %}
+
 
 
