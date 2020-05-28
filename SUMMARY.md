@@ -3,6 +3,7 @@
 * [What is Simple?](README.md)
 * [Try it out](how-to-test-the-simple-app.md)
 * [Guide for use in the field](troubleshooting-guide.md)
+* [Recommended reading material](recommended-reading-material.md)
 * [Training materials](training-materials.md)
 * [What we report](what-we-report.md)
 * [Key documents](key-documents/README.md)
