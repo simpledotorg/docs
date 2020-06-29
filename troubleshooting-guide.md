@@ -90,7 +90,7 @@ description: >-
 
 * Ask the users to tap on the 'EDIT' button on the top right corner of the patient details screen.
 
-![](.gitbook/assets/02.2.png)
+![](.gitbook/assets/edit-patient-details.png)
 
 ### 5. "My call gets disconnected when I call a patient"
 
@@ -103,7 +103,7 @@ description: >-
 * There are two ways to call a patient. Secure calls are free and the user’s phone number is hidden.
 * Normal calls are charged as per user's network provider.
 
-![](.gitbook/assets/02awqe.png)
+![](.gitbook/assets/secure-call.png)
 
 ### 7. "I am not able to see recent patients"
 
@@ -156,7 +156,7 @@ description: >-
 
 ### 
 
-![](.gitbook/assets/sign-out.png)
+![](.gitbook/assets/change-handset.png)
 
 * Ask them to tap on ‘GOT IT’ and they can start using Simple as they normally do.
 * They will be logged out of their old device.
