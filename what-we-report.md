@@ -23,7 +23,7 @@ Cohort reports provide 4 key indicators:
 
 We provide these reports for the overall **district** level and for each **facility.**
 
-![Example quarterly cohort report generated for Q3 2019](.gitbook/assets/image%20%287%29.png)
+![Sample monthly cohort report for May 2020](.gitbook/assets/cohort-reports.png)
 
 ### Monthly cohorts
 
