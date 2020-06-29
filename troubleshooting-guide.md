@@ -64,7 +64,9 @@ description: >-
         make a note and message to Praveen.</td>
     </tr>
   </tbody>
-</table>> **If the issue doesn’t get resolved with any of the suggested workarounds, kindly make a note of it and report the issue along with the details to Praveen.**
+</table>
+
+> **If the issue doesn’t get resolved with any of the suggested workarounds, kindly make a note of it and report the issue along with the details to Praveen.**
 
 ## **Issues**
 

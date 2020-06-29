@@ -212,3 +212,4 @@ Admin access to the dashboard is determined by the set of permissions listed bel
     </tr>
   </tbody>
 </table>
+

@@ -21,7 +21,7 @@ Github: [simpledotorg/simple-android](https://github.com/simpledotorg/simple-and
 
 👩‍💻 The Android app is primarily written in Kotlin
 
-![](.gitbook/assets/screenshot_collection.png)
+![](.gitbook/assets/simple-app.png)
 {% endtab %}
 
 {% tab title="🖥️ Simple Dashboard" %}
@@ -35,9 +35,9 @@ Github: [simpledotorg/simple-server](https://github.com/simpledotorg/simple-serv
 
 👩‍💻 The dashboard is primarily written in Ruby on Rails and PostgreSQL
 
-![Dashboard](.gitbook/assets/screenshot_1%20%285%29.png)
+![](.gitbook/assets/dashboard-home.png)
 
-![District screen](.gitbook/assets/screenshot_2.png)
+![](.gitbook/assets/dashboard-reports.png)
 {% endtab %}
 {% endtabs %}
 
