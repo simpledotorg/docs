@@ -35,7 +35,7 @@ Github: [simpledotorg/simple-server](https://github.com/simpledotorg/simple-serv
 
 👩‍💻 The dashboard is primarily written in Ruby on Rails and PostgreSQL
 
-![](.gitbook/assets/dashboard-home.png)
+![](.gitbook/assets/dashboard-home%20%282%29.png)
 
 ![](.gitbook/assets/dashboard-reports.png)
 {% endtab %}
