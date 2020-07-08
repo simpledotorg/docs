@@ -28,8 +28,8 @@ Github: [simpledotorg/simple-android](https://github.com/simpledotorg/simple-and
 A web-based tool that allows managers to:
 
 1. Track facility, district, and state-level performance
-2. Manager users, facilities, and more
-3. Automatically sends text messages to patients to return them to care
+2. Manage users, facilities, and more
+3. Automatically send text messages to patients to return them to care
 
 Github: [simpledotorg/simple-server](https://github.com/simpledotorg/simple-server) repository
 
