@@ -4,21 +4,21 @@ description: Training presentations and videos for trainers and Simple users
 
 # Training materials
 
-{% embed url="https://docs.google.com/presentation/d/1y4tEmm6ZaIphf48s8NNr6LjQt7pV8m\_2AAubovGGVO8/edit\#slide=id.g625ae98c28\_1\_21" caption="The training guide to teach nurses, doctors, and other healthcare workers to use Simple in the field." %}
+{% embed url="https://docs.google.com/presentation/d/1y4tEmm6ZaIphf48s8NNr6LjQt7pV8m\_2AAubovGGVO8/edit\#slide=id.g625ae98c28\_1\_21" caption="Guide for healthcare workers" %}
 
-{% embed url="https://docs.google.com/presentation/d/1sna087oQH6NbMk28pwmvvLvvAV4xyB0hHBACLP4iU1E/edit\#slide=id.g7402fb462f\_0\_836" %}
+{% embed url="https://docs.google.com/presentation/d/1sna087oQH6NbMk28pwmvvLvvAV4xyB0hHBACLP4iU1E/edit\#slide=id.g7402fb462f\_0\_836" caption="Guide for trainers" %}
+
+{% embed url="https://www.youtube.com/watch?v=MC\_45DoRw2g&t=10s" caption="Individual chapters available on our Youtube channel" %}
+
+{% embed url="https://www.youtube.com/watch?v=YjfPCUtZHlI&t=4s" caption="Short introductory video" %}
+
+{% embed url="https://www.youtube.com/watch?v=wfrMbvTXn38&feature=youtu.be" caption="Video training for trainers" %}
 
 
 
-✅ [Deployment checklist](https://docs.google.com/document/d/1UhlX9NJYOSyCN4zOW_k2GpZq5BsJQiQBqDXLh-aKRMc/edit#): A checklist for teams deploying Simple in a district
+✅ [Deployment checklist](https://docs.google.com/document/d/1cleJkm09VRGUAafkpzC9U2ao9r4r8ewZjLPwfTTj57Q/edit): A checklist for teams deploying Simple in a district
 
-🎬 VIDEO: “How Simple Works” 5 min. video on Youtube \([Hindi version](https://www.youtube.com/watch?v=zthrk6XfpjQ&t=9s)\) \([English version](https://www.youtube.com/watch?v=Gm_Fnp6ffaM&t=4s)\)
-
-🎬 VIDEO: “How to use a BP Passport” 4 min video on Youtube \([Hindi with English subtitles](https://www.youtube.com/watch?v=aktZ1yTdDOA&feature=youtu.be)\)
-
-👩‍💻 SLIDES: [Presentation for training users to use Simple](https://docs.google.com/presentation/d/1y4tEmm6ZaIphf48s8NNr6LjQt7pV8m_2AAubovGGVO8/edit?usp=sharing)
-
-👩‍💻 SLIDES: [Presentation for training the trainers](https://docs.google.com/presentation/d/1sna087oQH6NbMk28pwmvvLvvAV4xyB0hHBACLP4iU1E/edit#slide=id.g7402fb462f_0_836)
+📖 [Handbook for Simple users](https://drive.google.com/file/d/1MM2dEpUBgE3EyZS9CrzuxgjHqIQa3eb1/view): Detail explaining how to use Simple
 
 
 
