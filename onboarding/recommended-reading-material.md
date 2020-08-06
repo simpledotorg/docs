@@ -1,4 +1,10 @@
-# Recommended reading material
+---
+description: >-
+  Books and articles for people who are new to the Simple project and want to
+  get up to speed on public health and data systems.
+---
+
+# Recommended reading
 
 ## Books
 

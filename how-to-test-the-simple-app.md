@@ -12,7 +12,7 @@ description: >-
 Demo is publicly accessible to anyone and everyone. It is nearly identical to the production app, but with dummy data.
 {% endhint %}
 
-1. Install Simple Demo from [the Play Store](https://play.google.com/store/apps/details?id=org.simple.clinic.staging).
+1. Install Simple Demo from [the Android Play Store](https://play.google.com/store/apps/details?id=org.simple.clinic.staging).
 2. While making a new account in the app, enter a 10-digit phone number. If you don't have an Indian number \(starting in +91\) just use a fake 10-digit number.
 3. Create any 4-digit PIN code.
 4. When choosing facilities, pick any of the "Demo" facilities \(e.g.: Demo Facility A, Demo Facility B etc.\)

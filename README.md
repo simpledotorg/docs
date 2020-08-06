@@ -1,7 +1,7 @@
 ---
 description: >-
   Simple is the fast, free app for clinicians to manage their patients with high
-  blood pressure. More details at Simple.org
+  blood pressure and diabetes. More details at Simple.org
 ---
 
 # What is Simple?
@@ -17,7 +17,7 @@ The Simple Android app that is used by healthcare workers to:
 3. Contact overdue patients to return them to care
 4. Track an individual facility's performance at controlling patients' BPs
 
-Github: [simpledotorg/simple-android](https://github.com/simpledotorg/simple-android) 
+Github: [simpledotorg/simple-android](https://github.com/simpledotorg/simple-android)
 
 👩‍💻 The Android app is primarily written in Kotlin
 

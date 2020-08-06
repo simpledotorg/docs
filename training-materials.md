@@ -1,4 +1,14 @@
+---
+description: Training presentations and videos for trainers and Simple users
+---
+
 # Training materials
+
+{% embed url="https://docs.google.com/presentation/d/1y4tEmm6ZaIphf48s8NNr6LjQt7pV8m\_2AAubovGGVO8/edit\#slide=id.g625ae98c28\_1\_21" %}
+
+{% embed url="https://docs.google.com/presentation/d/1sna087oQH6NbMk28pwmvvLvvAV4xyB0hHBACLP4iU1E/edit\#slide=id.g7402fb462f\_0\_836" %}
+
+
 
 ✅ [Deployment checklist](https://docs.google.com/document/d/1UhlX9NJYOSyCN4zOW_k2GpZq5BsJQiQBqDXLh-aKRMc/edit#): A checklist for teams deploying Simple in a district
 
