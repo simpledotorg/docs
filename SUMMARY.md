@@ -4,9 +4,6 @@
 * [Try it out](how-to-test-the-simple-app.md)
 * [Training materials](training-materials.md)
 * [What we report](what-we-report.md)
-* [Key documents](key-documents/README.md)
-  * [Acronyms](key-documents/acronyms.md)
-  * [Glossary](key-documents/glossary.md)
 * [Filing a bug](how-to-file-a-bug/README.md)
   * [Bug priority definitions](how-to-file-a-bug/bug-priority-definitions.md)
 * [Code of conduct](code-of-conduct.md)
@@ -21,6 +18,7 @@
   * [Pivotal Tracker \(Guide\)](engineering/tooling-and-infrastructure/pivotal-tracker-howto.md)
   * [Service dependencies](engineering/tooling-and-infrastructure/service-dependencies.md)
   * [Developer on and offboarding](engineering/tooling-and-infrastructure/developer-onboarding.md)
+* [Key documents](engineering/key-documents.md)
 * [Release notes](engineering/publishing-release-notes/README.md)
   * [Android release notes](engineering/publishing-release-notes/android-release-notes.md)
 * [Android](engineering/android/README.md)
@@ -48,6 +46,8 @@
 
 ## Onboarding
 
+* [Acronyms](onboarding/acronyms.md)
+* [Glossary](onboarding/glossary.md)
 * [Recommended reading](onboarding/recommended-reading-material.md)
 
 ## Elsewhere
