@@ -12,9 +12,8 @@ All developers need access to the following services:
 
 * [Slack](https://simpledotorg.slack.com/)
 * [GitHub](https://github.com/simpledotorg/)
-* [Pivotal Tracker](https://www.pivotaltracker.com/n/projects/2184102)
+* [Clubhouse](https://app.clubhouse.io/simpledotorg)
 * [GitBook](https://app.gitbook.com/@simpledotorg/)
-* [Zeplin](https://app.zeplin.io/projects)
 * [Figma](https://www.figma.com)
 * [Sentry](https://sentry.io/organizations/resolve-to-save-lives/issues/)
 * [Security Scorecard](https://securityscorecard.com/)
@@ -37,7 +36,7 @@ All Android developers need the following additional accounts:
 All back-end developers need the following additional accounts:
 
 * [Amazon Web Services](https://resolvetosavelives.signin.aws.amazon.com/console/)
-* [New Relic](https://account.newrelic.com/accounts/2000380/users)
+* [Datadog](https://app.datadoghq.com)
 * [Exotel](https://my.exotel.com/auth/logout)
 * [Metabase](https://metabase.simple.org)
 * [Semaphore](https://semaphoreci.com/resolvetosavelives)
