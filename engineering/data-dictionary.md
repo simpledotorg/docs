@@ -1,4 +1,4 @@
-# Data Dictionary
+# Data dictionary
 
 Go to [Data Dictionary](https://docs.google.com/spreadsheets/d/1LOn9IzfuQXog2agGbNphweMNTV27K84yctjPs6b7USI/edit#gid=0) 📖 on Google Sheets 
 

@@ -13,7 +13,7 @@
 ## Engineering
 
 * [Environments](engineering/environments.md)
-* [Data Dictionary](engineering/data-dictionary.md)
+* [Data dictionary](engineering/data-dictionary.md)
 * [Tooling & infrastructure](engineering/tooling-and-infrastructure/README.md)
   * [Environments](engineering/tooling-and-infrastructure/environments.md)
   * [Pivotal Tracker \(Guide\)](engineering/tooling-and-infrastructure/pivotal-tracker-howto.md)
