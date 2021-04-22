@@ -42,7 +42,7 @@ WHERE "patients"."deleted_at" IS NULL
 GROUP BY date_trunc('month', "patients"."recorded_at"::timestamptz AT TIME ZONE 'ETC/UTC') AT TIME ZONE 'ETC/UTC' [["registration_facility_id", "2e768fb2-9de0-4a7d-a64d-9f5b4c1863f4"],["hypertension", "yes"]]"
 ```
 
-**Why is this important?** We can't track a patient's hypertension if their information isn't added to Simple. Program managers monitor registration numbers to ensure healthcare workers are registering patients into the system.
+**Why is this important?** Program managers monitor registration numbers to ensure healthcare workers are registering patients into the system.
 
 ## Total assigned patients
 
