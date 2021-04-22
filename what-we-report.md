@@ -25,7 +25,7 @@ Simple collects the bare minimum of information necessary to identify a patient,
 
 **Monthly registered patients:** the number of patients registered at a facility during a month where the patient \(1\) is not deleted and \(2\) is hypertensive.
 
-**Total registered patients:** the number of patients registered at a facility. _Note: this is calculated by adding monthly registrations at a facility over time_
+**Total registered patients:** the number of patients registered at a facility. _Note: this is calculated by adding monthly registered patients at a facility over time_
 
 ```text
 /* Sample SQL query */
@@ -42,7 +42,7 @@ WHERE "patients"."deleted_at" IS NULL
 GROUP BY date_trunc('month', "patients"."recorded_at"::timestamptz AT TIME ZONE 'ETC/UTC') AT TIME ZONE 'ETC/UTC' [["registration_facility_id", "2e768fb2-9de0-4a7d-a64d-9f5b4c1863f4"],["hypertension", "yes"]]"
 ```
 
-**Why is this important?** Tracking registrations allows program managers to identify facilities that aren't registering patients into the system. If patients aren't being registered in the system, we can't help track their hypertension treatment.
+**Why is this important?** We can't track a patient's hypertension if their information isn't added to Simple. Program managers monitor registration numbers to ensure healthcare workers are registering patients into the system.
 
 ## Total assigned patients
 
@@ -65,11 +65,11 @@ GROUP BY DATE_TRUNC('month', "patients"."recorded_at"::timestamptz AT TIME ZONE 
 
 ```
 
-**Why is this important?** Patients often travel multiple hours to visit a district hospital, and it's unlikely they will make that trip every month. Simple allows healthcare workers to re-assign patients to a smaller clinic closer to the patient's home to make it easier for them to get hypertensive treatment and medication. Total assigned patients is the number of patients that visit a facility on a regular basis. This number is used to calculate the main key indicators \(BP controlled, Follow-ups, Lost to follow-up\) and is the number used to estimate medication supply needs.
+**Why is this important?** This indicator represents the number of patients a facility is responsible for. It is the population base used to calculate indicators like BP controlled and Missed visits.
 
-##  BP controlled
+## BP controlled
 
-The number of patients assigned to a facility registered before the last 3 months where the patient \(1\) is not deleted \(2\) is hypertensive \(3\) is not dead \(4\) has a BP measure taken within the last 3 months and \(5\) last BP measure taken is &lt;140/90.
+The number of patients assigned to a facility registered before the last 3 months where the patient \(1\) is not deleted \(2\) is hypertensive \(3\) is not dead \(4\) has a BP measure taken within the last 3 months and \(5\) their last BP measure taken is &lt;140/90.
 
 _Note: We display this key indicator as a rate where the denominator is total assigned patients registered before the last 3 months._
 
@@ -91,9 +91,9 @@ WHERE (systolic < 140
        AND diastolic < 90) [["patient_status", "dead"],["assigned_facility_id", "399c52a8-4b49-41d4-8704-cc3985ac26e6"]]
 ```
 
-**Why are patients registered within the last 3 months excluded?** Three months gives patients time to take their hypertension medication. Most newly registered patients are hypertensive, and including them would not reflect an accurate picture of actual controlled patients.
+**Why are patients registered within the last 3 months excluded?** Three months gives patients time to take their hypertension medication. Newly registered patients have uncontrolled blood pressure, and including them would not reflect an accurate picture of actual controlled patients.
 
-**Why is this important?** The goal of a hypertension control program is to treat hypertension and this metric represents how well the system is doing at controlling patient high blood pressure.
+**Why is this important?** This indicator reflects the overall health of the system and is the most important indicator our system tracks.
 
 ## BP not controlled
 
@@ -119,7 +119,7 @@ WHERE (systolic >= 140
        OR diastolic >= 90) [["patient_status", "dead"],["assigned_facility_id", "399c52a8-4b49-41d4-8704-cc3985ac26e6"]]
 ```
 
-**Why is this important?** This indicator is important because it allows program managers to see which patients are coming back to care, but require continued hypertension treatment to control their blood pressure.
+**Why is this important?** It shows which patients are coming back to care, but require continued hypertension treatment to control their blood pressure.
 
 ## Visited but no BP taken
 
@@ -165,7 +165,7 @@ WHERE "patients"."deleted_at" IS NULL
                                                                    ["assigned_facility_id", "3a7e86d2-c272-4303-8ffa-d6d1b54874b3"]]
 ```
 
-**Why is this important?** This indicator allows program managers to see which patients are coming back to care but aren't getting their blood pressure taken at the facility. This is not very common, but has happened more regularly during COVID-19 where patients visit a facility to pick up medications and avoid contact with healthcare workers to protect themselves from infection.
+**Why is this important?** We started tracking this indicator during COVID-19, because patients were visiting facilities to pick up medications but didn't have their BP taken to avoid contact with healthcare workers and prevent COVID infection. This is not very common, but helps capture the entire patient base.
 
 ## Missed visits
 
@@ -184,7 +184,7 @@ _Note: We display this key indicator as a rate where the denominator is total as
   Missed vists
 ```
 
-**Why is this important?** Program managers focus a lot of their attention on bringing this number down as much as possible by urging healthcare workers at facilities to call patients that have missed their appointments and reminding them to continue treatment.
+**Why is this important?** This number reflects how good facilities are at reminding patients to come back to care in the 3-month period we're tracking controlled and uncontrolled patients.
 
 ## Lost to follow-up
 
@@ -210,7 +210,7 @@ WHERE "patients"."deleted_at" IS NULL
        AND patients.recorded_at < '2020-04-30') /* Date from 1 year ago */
 ```
 
-**Why is this important?** The main key indicators exclude lost to follow-up patients to allow program managers to better estimate medication supply needs and to better assess the health of patients that are coming back to care.
+**Why is this important?** The main key indicators exclude lost to follow-up patients to allow program managers to assess the health of patients that are coming back to care.
 
 ## Follow-up patients
 
@@ -236,7 +236,7 @@ GROUP BY DATE_TRUNC('month', blood_pressures.recorded_at::timestamptz AT TIME ZO
                                                                                                                                                                  ["hypertension", "yes"]]
 ```
 
-**Why is this important?** This indicator is a reflection of a facility's effectiveness at bringing patients back to care to continue with their treatment. This indicator is often compared with total assigned patients because it shows what proportion of patients are getting treated.
+**Why is this important?** This indicator is a reflection of a facility's effectiveness at bringing patients back to care in a 1-month period. This indicator is often compared with total assigned patients because it shows what proportion of patients are getting treated.
 
 ## Inactive facilities
 
