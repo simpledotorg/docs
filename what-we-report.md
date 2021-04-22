@@ -93,7 +93,7 @@ WHERE (systolic < 140
 
 **Why are patients registered within the last 3 months excluded?** Three months gives patients time to take their hypertension medication. Newly registered patients have uncontrolled blood pressure, and including them would not reflect an accurate picture of actual controlled patients.
 
-**Why is this important?** This indicator reflects the overall health of the system and is the most important indicator our system tracks.
+**Why is this important?** This indicator reflects the overall health of a hypertension control program and is the most important indicator our system tracks.
 
 ## BP not controlled
 
