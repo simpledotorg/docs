@@ -444,7 +444,7 @@ WHERE "latest_blood_pressures_per_patient_per_months"."deleted_at" IS NULL
                             ["id", "acc3da36-c5d2-42e1-a1fe-29d6a40b0580"]]
 ```
 
-**Missed visits numerator:** The number of patients assigned to a facility registered during a month \(minus\) the number of patients with a BP taken in the following 2 months.
+**Missed visits numerator:** The number of patients assigned to a facility registered during a month minus the number of patients with a BP taken in the following 2 months.
 
 ```text
 /* Sample SQL query */
