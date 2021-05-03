@@ -56,7 +56,4 @@
 * [Simple.org](https://simple.org)
 * [Source code \(GitHub\)](https://github.com/simpledotorg)
 * [Join our Slack \(Slack\)](https://goo.gl/forms/csgMyxjOwpvB5ilr2)
-* [Project board \(Pivotal Tracker\)](https://www.pivotaltracker.com/n/projects/2184102)
-* [Android interface design \(Zeplin\)](https://app.zeplin.io/project/5b9a49113dbe7958c1d3fde6)
-* [Analytics \(Heap Analytics\) 🔒](https://heapanalytics.com/app/)
 

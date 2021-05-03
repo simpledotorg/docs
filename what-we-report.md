@@ -8,11 +8,11 @@ In order to improve hypertension treatment for a clinic or even an entire popula
 
 Simple collects the bare minimum of information necessary to identify a patient, treat the patient for hypertension, and schedule a follow-up. We aggregate this information to report the following key indicators to help track hypertension care:
 
-1. [Registrations](https://app.gitbook.com/@simpledotorg/s/docs/~/drafts/-MYfp73eLYHeDsbjbL5z/what-we-report#registrations)
-2. [Total assigned patients](https://app.gitbook.com/@simpledotorg/s/docs/~/drafts/-MYfp73eLYHeDsbjbL5z/what-we-report#total-assigned-patients)
-3. [BP controlled](https://app.gitbook.com/@simpledotorg/s/docs/~/drafts/-MYfp73eLYHeDsbjbL5z/what-we-report#bp-controlled)
-4. [BP not controlled](https://app.gitbook.com/@simpledotorg/s/docs/~/drafts/-MYfp73eLYHeDsbjbL5z/what-we-report#bp-not-controlled)
-5. [Visited but no BP taken](https://app.gitbook.com/@simpledotorg/s/docs/~/drafts/-MYfp73eLYHeDsbjbL5z/what-we-report#visited-but-no-bp-taken)
+1. [Registrations](https://docs.simple.org/what-we-report#registrations)
+2. [Total assigned patients](https://docs.simple.org/what-we-report#total-assigned-patients)
+3. [BP controlled](https://docs.simple.org/what-we-report#bp-controlled)
+4. [BP not controlled](https://docs.simple.org/what-we-report#bp-not-controlled)
+5. [Visited but no BP taken](https://docs.simple.org/what-we-report#visited-but-no-bp-taken)
 6. [Missed visits](https://app.gitbook.com/@simpledotorg/s/docs/~/drafts/-MYfp73eLYHeDsbjbL5z/what-we-report#missed-visits)
 7. [Lost to follow-up](https://app.gitbook.com/@simpledotorg/s/docs/~/drafts/-MYfp73eLYHeDsbjbL5z/what-we-report#lost-to-follow-up)
 8. [Follow-up patients](https://app.gitbook.com/@simpledotorg/s/docs/~/drafts/-MYfp73eLYHeDsbjbL5z/what-we-report#follow-up-patients)
