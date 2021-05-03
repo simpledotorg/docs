@@ -14,7 +14,7 @@ Simple collects the bare minimum of information necessary to identify a patient,
 4. [BP not controlled](https://docs.simple.org/what-we-report#bp-not-controlled)
 5. [Visited but no BP taken](https://docs.simple.org/what-we-report#visited-but-no-bp-taken)
 6. [Missed visits](https://docs.simple.org/what-we-report#missed-visits)
-7. [Lost to follow-up](https://app.gitbook.com/@simpledotorg/s/docs/~/drafts/-MYfp73eLYHeDsbjbL5z/what-we-report#lost-to-follow-up)
+7. [Lost to follow-up](https://docs.simple.org/what-we-report#lost-to-follow-up)
 8. [Follow-up patients](https://app.gitbook.com/@simpledotorg/s/docs/~/drafts/-MYfp73eLYHeDsbjbL5z/what-we-report#follow-up-patients)
 9. [Inactive facilities](https://app.gitbook.com/@simpledotorg/s/docs/~/drafts/-MYfp73eLYHeDsbjbL5z/what-we-report#inactive-facilities)
 10. [BP measure taken](https://app.gitbook.com/@simpledotorg/s/docs/~/drafts/-MYfp73eLYHeDsbjbL5z/what-we-report#bp-measure-taken)
