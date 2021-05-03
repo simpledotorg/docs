@@ -16,9 +16,9 @@ Simple collects the bare minimum of information necessary to identify a patient,
 6. [Missed visits](https://docs.simple.org/what-we-report#missed-visits)
 7. [Lost to follow-up](https://docs.simple.org/what-we-report#lost-to-follow-up)
 8. [Follow-up patients](https://app.gitbook.com/@simpledotorg/s/docs/~/drafts/-MYfp73eLYHeDsbjbL5z/what-we-report#follow-up-patients)
-9. [Inactive facilities](https://app.gitbook.com/@simpledotorg/s/docs/~/drafts/-MYfp73eLYHeDsbjbL5z/what-we-report#inactive-facilities)
-10. [BP measure taken](https://app.gitbook.com/@simpledotorg/s/docs/~/drafts/-MYfp73eLYHeDsbjbL5z/what-we-report#bp-measure-taken)
-11. [BP log](https://app.gitbook.com/@simpledotorg/s/docs/~/drafts/-MYfp73eLYHeDsbjbL5z/what-we-report#bp-log)
+9. [Inactive facilities](https://docs.simple.org/what-we-report#inactive-facilities)
+10. [BP measure taken](https://docs.simple.org/what-we-report#bp-measure-taken)
+11. [BP log](https://docs.simple.org/what-we-report#bp-log)
 12. [Cohort reports](https://app.gitbook.com/@simpledotorg/s/docs/~/drafts/-MYfp73eLYHeDsbjbL5z/what-we-report#cohort-reports)
 
 ## Registrations
