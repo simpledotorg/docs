@@ -19,7 +19,7 @@ Simple collects the bare minimum of information necessary to identify a patient,
 9. [Inactive facilities](https://docs.simple.org/what-we-report#inactive-facilities)
 10. [BP measure taken](https://docs.simple.org/what-we-report#bp-measure-taken)
 11. [BP log](https://docs.simple.org/what-we-report#bp-log)
-12. [Cohort reports](https://app.gitbook.com/@simpledotorg/s/docs/~/drafts/-MYfp73eLYHeDsbjbL5z/what-we-report#cohort-reports)
+12. [Cohort reports](https://docs.simple.org/what-we-report#cohort-reports)
 
 ## Registrations
 
@@ -211,6 +211,16 @@ WHERE "patients"."deleted_at" IS NULL
 ```
 
 **Why is this important?** The main key indicators exclude lost to follow-up patients to allow program managers to assess the health of patients that are coming back to care.
+
+## Patients under care
+
+The number of patients assigned to a facility where the patient \(1\) had a BP recorded within the last year \(2\) is hypertensive \(3\) is not dead and \(4\) is not deleted.
+
+```text
+Sample SQL will be added soon
+```
+
+**Why is this important?** Represents the number of "active" patients or the number of patients that aren't lost to follow-up.
 
 ## Follow-up patients
 
