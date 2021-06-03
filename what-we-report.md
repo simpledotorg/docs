@@ -19,9 +19,10 @@ Simple collects the bare minimum of information necessary to identify a patient,
 9. [Follow-up patients](https://app.gitbook.com/@simpledotorg/s/docs/~/drafts/-MYfp73eLYHeDsbjbL5z/what-we-report#follow-up-patients)
 10. [Total facilities](https://docs.simple.org/what-we-report#total-facilities)
 11. [Inactive facilities](https://docs.simple.org/what-we-report#inactive-facilities)
-12. [BP measure taken](https://docs.simple.org/what-we-report#bp-measure-taken)
-13. [BP log](https://docs.simple.org/what-we-report#bp-log)
-14. [Cohort reports](https://docs.simple.org/what-we-report#cohort-reports)
+12. Patients with BP measure taken
+13. [BP measure taken](https://docs.simple.org/what-we-report#bp-measure-taken)
+14. [BP log](https://docs.simple.org/what-we-report#bp-log)
+15. [Cohort reports](https://docs.simple.org/what-we-report#cohort-reports)
 
 ## Registrations
 
@@ -311,6 +312,12 @@ HAVING (SUM(bp_count) >= 10)
 ```
 
 **Why is this important?** This indicator allows program managers to see which facilities may be facing technical issues with the system or healthcare workers that are forgetting to record BP measures into the system.
+
+## Patients with BP measure taken
+
+Number of unique patients with a BP measure taken in a given number of days. If a patient has multiple BPs in one day, they are only counted once.
+
+**Why is this important?** This indicator allows program managers to quickly see if a facility is actively taking BP measurements.
 
 ## BP measure taken
 
