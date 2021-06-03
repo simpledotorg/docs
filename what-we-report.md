@@ -17,10 +17,11 @@ Simple collects the bare minimum of information necessary to identify a patient,
 7. [Lost to follow-up](https://docs.simple.org/what-we-report#lost-to-follow-up)
 8. [Patients under care](https://docs.simple.org/what-we-report#patients-under-care)
 9. [Follow-up patients](https://app.gitbook.com/@simpledotorg/s/docs/~/drafts/-MYfp73eLYHeDsbjbL5z/what-we-report#follow-up-patients)
-10. [Inactive facilities](https://docs.simple.org/what-we-report#inactive-facilities)
-11. [BP measure taken](https://docs.simple.org/what-we-report#bp-measure-taken)
-12. [BP log](https://docs.simple.org/what-we-report#bp-log)
-13. [Cohort reports](https://docs.simple.org/what-we-report#cohort-reports)
+10. Total facilities
+11. [Inactive facilities](https://docs.simple.org/what-we-report#inactive-facilities)
+12. [BP measure taken](https://docs.simple.org/what-we-report#bp-measure-taken)
+13. [BP log](https://docs.simple.org/what-we-report#bp-log)
+14. [Cohort reports](https://docs.simple.org/what-we-report#cohort-reports)
 
 ## Registrations
 
@@ -249,9 +250,15 @@ GROUP BY DATE_TRUNC('month', blood_pressures.recorded_at::timestamptz AT TIME ZO
 
 **Why is this important?** This indicator is a reflection of a facility's effectiveness at bringing patients back to care in a 1-month period. This indicator is often compared with total assigned patients because it shows what proportion of patients are getting treated.
 
+## Total facilities
+
+Facilities registered in Simple where the current user can view reports.
+
+**Why is this important?** This allows program managers to see all the facilities they are responsible for.
+
 ## Inactive facilities
 
-Facilities where &lt;10 patients had any BPs recorded in the last 7 days
+Facilities registered in Simple where the current user can view reports and where &lt;10 patients had a BP recorded in the last 7 days.
 
 **How it's calculated:** First we calculate total active facilities \(Facilities where &gt;10 patients had any BPs recorded in the last 7 days\). Then we \(1\) grab all facilities the admin has access to \(2\) count the total number of patients with a BP taken in a day for the last 7 days at each facility and \(3\) return the number of facilities where the facility has had more than 10 patients with a BP taken in the last week.
 
