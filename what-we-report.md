@@ -17,7 +17,7 @@ Simple collects the bare minimum of information necessary to identify a patient,
 7. [Lost to follow-up](https://docs.simple.org/what-we-report#lost-to-follow-up)
 8. [Patients under care](https://docs.simple.org/what-we-report#patients-under-care)
 9. [Follow-up patients](https://app.gitbook.com/@simpledotorg/s/docs/~/drafts/-MYfp73eLYHeDsbjbL5z/what-we-report#follow-up-patients)
-10. Total facilities
+10. [Total facilities](https://docs.simple.org/what-we-report#total-facilities)
 11. [Inactive facilities](https://docs.simple.org/what-we-report#inactive-facilities)
 12. [BP measure taken](https://docs.simple.org/what-we-report#bp-measure-taken)
 13. [BP log](https://docs.simple.org/what-we-report#bp-log)
