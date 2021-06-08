@@ -23,6 +23,7 @@ Simple collects the bare minimum of information necessary to identify a patient,
 13. [BP measure taken](https://docs.simple.org/what-we-report#bp-measure-taken)
 14. [BP log](https://docs.simple.org/what-we-report#bp-log)
 15. [Cohort reports](https://docs.simple.org/what-we-report#cohort-reports)
+16. [Dead patients](https://docs.simple.org/what-we-report#dead-patients)
 
 ## Registrations
 
@@ -535,4 +536,10 @@ WHERE "patients"."deleted_at" IS NULL
 ```
 
 **Why is this important?** This allows program managers to track a group of patients over time and see how long it takes patients to get controlled or to be lost to follow-up.
+
+## Dead patients
+
+Patients who have been marked as dead. The patient's date of death is not recorded.
+
+**Why is this important?** Dead patients are excluded from all key indicators.
 
