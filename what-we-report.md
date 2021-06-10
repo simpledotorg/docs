@@ -221,7 +221,19 @@ WHERE "patients"."deleted_at" IS NULL
 The number of patients assigned to a facility where the patient \(1\) had a BP recorded within the last year \(2\) is hypertensive \(3\) is not dead and \(4\) is not deleted.
 
 ```text
-Sample SQL will be added soon
+SELECT DISTINCT "patients".*
+FROM "patients"
+INNER JOIN "medical_histories" ON "medical_histories"."deleted_at" IS NULL
+AND "medical_histories"."patient_id" = "patients"."id"
+LEFT OUTER JOIN latest_blood_pressures_per_patient_per_months ON patients.id =  latest_blood_pressures_per_patient_per_months.patient_id
+WHERE "patients"."deleted_at" IS NULL
+  AND "medical_histories"."deleted_at" IS NULL
+  AND "medical_histories"."hypertension" = 'yes'
+  AND "patients"."status" != 'dead'
+  AND "patients"."assigned_facility_id" = '1f783f44-3153-44f2-a99e-6587f31da6c5'
+  AND (bp_recorded_at > '2020-05-31'              /* Date from 1 year ago: 1 year is the LTFU period */
+       AND bp_recorded_at < '2021-05-13'          /* Current Date */
+       OR patients.recorded_at >= '2020-05-31')   /* Date from 1 year ago */
 ```
 
 **Why is this important?** Represents the number of "active" patients or the number of patients that aren't lost to follow-up.
