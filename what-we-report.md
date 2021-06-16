@@ -23,7 +23,7 @@ Simple collects the bare minimum of information necessary to identify a patient,
 13. [BP measure taken](https://docs.simple.org/what-we-report#bp-measure-taken)
 14. [BP log](https://docs.simple.org/what-we-report#bp-log)
 15. [Cohort reports](https://docs.simple.org/what-we-report#cohort-reports)
-16. [Overdue patients](https://docs.simple.org/what-we-report/overdue-patients)
+16. [Overdue patients](https://docs.simple.org/what-we-report#overdue-patients)
 17. [Dead patients](https://docs.simple.org/what-we-report#dead-patients)
 
 ## Registrations
