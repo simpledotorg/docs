@@ -241,27 +241,7 @@ WHERE "patients"."deleted_at" IS NULL
 
 ## Follow-up patients
 
-The number of patients assigned to a facility during a month where the patient \(1\) had a BP taken during a month \(2\) is hypertensive \(3\) is not deleted and \(4\) was not registered during that month.
-
-```text
-/* Sample SQL query */
-SELECT COUNT (DISTINCT "patients"."id") AS count_id,
-             DATE_TRUNC('month', blood_pressures.recorded_at::timestamptz AT TIME ZONE 'ASIA/KOLKATA') AT TIME ZONE 'ASIA/KOLKATA' AS date_trunc_month_blood_pressures_recorded_at_timestamptz_at_tim,
-             "blood_pressures"."facility_id" AS blood_pressures_facility_id
-FROM "patients"
-INNER JOIN "blood_pressures" ON "blood_pressures"."deleted_at" IS NULL
-AND "blood_pressures"."patient_id" = "patients"."id"
-INNER JOIN "medical_histories" ON "medical_histories"."deleted_at" IS NULL
-AND "medical_histories"."patient_id" = "patients"."id"
-WHERE "patients"."deleted_at" IS NULL
-  AND (patients.recorded_at < (DATE_TRUNC('month', (blood_pressures.recorded_at::timestamptz) AT TIME ZONE 'ASIA/KOLKATA')) AT TIME ZONE 'ASIA/KOLKATA')
-  AND (blood_pressures.recorded_at IS NOT NULL)
-  AND "blood_pressures"."facility_id" IN $1
-  AND "medical_histories"."deleted_at" IS NULL
-  AND "medical_histories"."hypertension" = $24
-GROUP BY DATE_TRUNC('month', blood_pressures.recorded_at::timestamptz AT TIME ZONE 'ASIA/KOLKATA') AT TIME ZONE 'ASIA/KOLKATA', "blood_pressures"."facility_id" [["facility_id", "3a7e86d2-c272-4303-8ffa-d6d1b54874b3"],
-                                                                                                                                                                 ["hypertension", "yes"]]
-```
+For a given period, the number of patients assigned to a facility where the patient \(1\) is hypertensive \(2\) is not deleted \(3\) was registered before that period and \(4\) had a BP taken, a blood sugar taken, an appointment scheduled, or their medications refilled during that period.
 
 **Why is this important?** This indicator is a reflection of a facility's effectiveness at bringing patients back to care in a 1-month period. This indicator is often compared with total assigned patients because it shows what proportion of patients are getting treated.
 
