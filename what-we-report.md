@@ -6,25 +6,7 @@ description: A brief description of our key indicators and how they're calculate
 
 In order to improve hypertension treatment for a clinic or even an entire population, you have to understand how the system is performing. You need to see if patients are getting healthy, if they're being treated, if they're coming back for follow-up visits, and if they're being registered into the system.
 
-Simple collects the bare minimum of information necessary to identify a patient, treat the patient for hypertension, and schedule a follow-up. We aggregate this information to report the following key indicators to help track hypertension care:
-
-1. [Registrations](https://docs.simple.org/what-we-report#registrations)
-2. [Total assigned patients](https://docs.simple.org/what-we-report#total-assigned-patients)
-3. [BP controlled](https://docs.simple.org/what-we-report#bp-controlled)
-4. [BP not controlled](https://docs.simple.org/what-we-report#bp-not-controlled)
-5. [Visited but no BP taken](https://docs.simple.org/what-we-report#visited-but-no-bp-taken)
-6. [Missed visits](https://docs.simple.org/what-we-report#missed-visits)
-7. [Lost to follow-up](https://docs.simple.org/what-we-report#lost-to-follow-up)
-8. [Patients under care](https://docs.simple.org/what-we-report#patients-under-care)
-9. [Follow-up patients](https://app.gitbook.com/@simpledotorg/s/docs/~/drafts/-MYfp73eLYHeDsbjbL5z/what-we-report#follow-up-patients)
-10. [Total facilities](https://docs.simple.org/what-we-report#total-facilities)
-11. [Inactive facilities](https://docs.simple.org/what-we-report#inactive-facilities)
-12. [Patients with BP measure taken](https://docs.simple.org/what-we-report#patients-with-bp-measure-taken)
-13. [BP measure taken](https://docs.simple.org/what-we-report#bp-measure-taken)
-14. [BP log](https://docs.simple.org/what-we-report#bp-log)
-15. [Cohort reports](https://docs.simple.org/what-we-report#cohort-reports)
-16. [Overdue patients](https://docs.simple.org/what-we-report#overdue-patients)
-17. [Dead patients](https://docs.simple.org/what-we-report#dead-patients)
+Simple collects the bare minimum of information necessary to identify a patient, treat the patient for hypertension, and schedule a follow-up. We aggregate this information to report the key indicators listed below.
 
 ## Registrations
 
@@ -537,6 +519,30 @@ All patients with an appointment scheduled at a facility managed by a program ma
 Patients can be temporarily removed for 7 days if they've been contacted by a healthcare worker and marked "Agreed to visit" in the Simple App. Patients can also be removed for 30 days if they've been marked as "Remind to call later" by a healthcare worker in the Simple App.
 
 **Why is this important?** It's important for patients to come back to care to continue with their hypertension treatment and get their hypertension under control. Healthcare workers are crucial at calling patients and reminding them to attend their appointments and continue with their treatment.
+
+### How the overdue list is sorted
+
+The overdue list orders patients by two factors:
+
+1. Risk level \(high risk first, then regular risk\)
+2. Days overdue \(ordered by least to most overdue\)
+
+#### Risk level
+
+Patients are categorized into High risk and Regular risk. A patient is High risk if they are ≥30 days overdue and:
+
+* Their latest BP is ≥180/110
+* OR if their medical history indicates prior heart attack or stroke AND their latest BP is ≥140/90
+* OR if their latest blood sugar is not controlled \(see [Blood sugar controlled](https://docs.simple.org/what-we-report#blood-sugar-controlled)\)
+
+## Blood sugar controlled
+
+A blood sugar is considered controlled if it is under the following thresholds:
+
+* Random blood sugar: &lt;300 mg/DL
+* Post prandial blood sugar: &lt;300 mg/DL
+* Fasting blood sugar: &lt;200 mg/DL
+* HbA1c: &lt;9.0%
 
 ## Dead patients
 
