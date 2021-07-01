@@ -225,7 +225,7 @@ WHERE "patients"."deleted_at" IS NULL
 
 **Follow-up patients per user:** For a given period, the number of patients attended by a user where the patient \(1\) is hypertensive \(2\) is not deleted \(3\) was registered before that period and \(4\) had a BP taken, a blood sugar taken, an appointment scheduled, or their medications refilled during that period by that user.
 
-**Follow-up patients per facility:** For a given period, the number of patients that visited a facility where the patient \(1\) is hypertensive \(2\) is not deleted \(3\) was registered before that period and \(4\) had a BP taken, a blood sugar taken, an appointment scheduled, or their medications refilled during that period.
+**Follow-up patients per facility:** For a given period, the number of patients that visited a facility where the patient \(1\) is hypertensive \(2\) is not deleted \(3\) was registered before that period and \(4\) had a BP taken, a blood sugar taken, an appointment scheduled, or their medications refilled during that period at that facility.
 
 **Follow-up patients per region:** For a given period, the sum of follow-up patients across all facilities in the region.
 
