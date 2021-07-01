@@ -223,9 +223,13 @@ WHERE "patients"."deleted_at" IS NULL
 
 ## Follow-up patients
 
-For a given period, the number of patients assigned to a facility where the patient \(1\) is hypertensive \(2\) is not deleted \(3\) was registered before that period and \(4\) had a BP taken, a blood sugar taken, an appointment scheduled, or their medications refilled during that period.
+**Follow-up patients per user:** For a given period, the number of patients attended by a user where the patient \(1\) is hypertensive \(2\) is not deleted \(3\) was registered before that period and \(4\) had a BP taken, a blood sugar taken, an appointment scheduled, or their medications refilled during that period by that user.
 
-**Why is this important?** This indicator is a reflection of a facility's effectiveness at bringing patients back to care in a 1-month period. This indicator is often compared with total assigned patients because it shows what proportion of patients are getting treated.
+**Follow-up patients per facility:** For a given period, the number of patients that visited a facility where the patient \(1\) is hypertensive \(2\) is not deleted \(3\) was registered before that period and \(4\) had a BP taken, a blood sugar taken, an appointment scheduled, or their medications refilled during that period.
+
+**Follow-up patients per region:** For a given period, the sum of follow-up patients across all facilities in the region.
+
+**Why is this important?** This indicator is an indicator used to monitor the facility's activity. Follow-up patients are often compared with total assigned patients because it shows what proportion of patients are getting treated.
 
 ## Total facilities
 
