@@ -4,6 +4,7 @@
 * [Try it out](how-to-test-the-simple-app.md)
 * [Training materials](training-materials.md)
 * [What we report](what-we-report.md)
+* [Building custom reports](building-custom-reports.md)
 * [Filing a bug](how-to-file-a-bug/README.md)
   * [Bug priority definitions](how-to-file-a-bug/bug-priority-definitions.md)
 * [Code of conduct](code-of-conduct.md)
