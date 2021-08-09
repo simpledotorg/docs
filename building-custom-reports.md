@@ -14,17 +14,81 @@ Alternatively, you can just click on "[Ask a new Question](https://metabase.simp
 
 Once you have generated a report, you can save it, share it with others, or even download the data to further analyse as spreadsheets or in other contexts.
 
+Here's a quick demo exploring patient registration data on Metabase:
+
+{% file src=".gitbook/assets/zoom\_2.mp4" caption="Demo: Building custom reports using Metabase" %}
+
 Read on further to understand the data in each of the reporting tables you can access in the questions on Metabase.
 
 ## Overview of the reporting tables
 
-![](.gitbook/assets/reporting-tables%20%282%29.png)
+The following table is a summary of each of the reporting tables, and what they contain. Please refer to the sections below for details of the columns in each of these tables.
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Table Name</th>
+      <th style="text-align:left">Description</th>
+      <th style="text-align:left">Contents</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b>reporting_patient_blood_pressures</b>
+      </td>
+      <td style="text-align:left">Summary of a patient&#x2019;s latest blood pressure</td>
+      <td style="text-align:left">One row per patient, per month, from the month of the patient&apos;s registration.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>reporting_patient_visits</b>
+      </td>
+      <td style="text-align:left">Summary of a patient&apos;s latest visit where they had a BP/Sugar recording,
+        an appointment, or a prescription drug refilled</td>
+      <td style="text-align:left">One row per patient, per month, from the month of the patient&apos;s registration</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p></p>
+        <p><b>reporting_patient_states</b>
+        </p>
+      </td>
+      <td style="text-align:left">Summary of a patient&apos;s health information and computed hypertension
+        indicators.</td>
+      <td style="text-align:left">One row per patient, per month, from the month of the patient&apos;s registration.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p></p>
+        <p><b>reporting_facility_states</b>
+        </p>
+      </td>
+      <td style="text-align:left">Summary of a facility&#x2019;s registrations, treatment outcomes, and
+        patients under care</td>
+      <td style="text-align:left">One row per facility, per month, for all months since 2018</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p></p>
+        <p><b>reporting_quarterly_facility_states</b>
+        </p>
+      </td>
+      <td style="text-align:left">A facility&#x2019;s quarterly treatment outcomes</td>
+      <td style="text-align:left">One row per facility, per quarter, for all months since 2018</td>
+    </tr>
+  </tbody>
+</table>
+
+## How the reporting tables are created
+
+The reporting tables are building blocks that are built on top of raw data. The following diagram illustrates which raw tables they are based on, and how we build larger even building blocks from these tables.
+
+![Derivation of the reporting tables from raw data](.gitbook/assets/reporting-tables%20%283%29.png)
 
 * **Raw data tables:** Data as recorded in the app goes into the transactional, or raw tables as seen in the first section of the diagram. These rows have all the detailed information collected as and when the nurse syncs the data via the Simple app. These tables have billions of rows, and are not well suited for querying reports.
 * **Reporting tables:** These are summarised tables created from the raw data tables for ease of creating reports. The summaries can be per-patient-per-month, or per-facility-per-month. Please refer to the above diagram for the description of each table.
 * **Dimension tables:** We can use these tables along with other reporting tables to filter and disaggregate data across time and geographical regions.
 
-## Summary of the reporting tables
+## Description of the data
 
 {% tabs %}
 {% tab title="reporting\_patient\_states" %}
