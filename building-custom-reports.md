@@ -6,7 +6,7 @@ description: >-
 
 # Building custom reports
 
-## Build reports using Metabase
+## Building reports using Metabase
 
 Metabase is a tool that allows us to explore the data in Simple, and build reports without engineering support. If you are new to Metabase, you can start with one of our [predefined templates](https://metabase.simple.org/collection/38), and explore further from there.
 
