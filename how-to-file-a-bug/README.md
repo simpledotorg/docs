@@ -2,13 +2,19 @@
 description: We appreciate your help in making Simple better for everyone!
 ---
 
-# Filing a bug
+# Customer support
+
+## How to handle common issues
+
+Praveen Kumar at WHO India has compiled an excellent guide on what program officers should do when healthcare workers encounter issues using Simple:
+
+✋🏽​ [What surveillance officers should do when they encounter a bug or issue with the Simple app](https://docs.google.com/document/d/1RgWCn-gcXvEbnozAZPIqmVpdQrd_INYFNOKB0NBGpII/edit#heading=h.jymexnipl7j2)
 
 ## Guide for field surveillance teams
 
 If you use Simple in the field and want to help the tech teams behind Simple with useful bug reports, please reference this helpful guide on how to triage and document issues:
 
-📄 [How to file a bug report or raise an issue](https://docs.google.com/document/d/1bJniRgJL8ef_SWWcwdLi1WASlez0ZHLH556YRDA9mDE/edit#heading=h.hucspecdvz3q)
+🐞 [How to file a bug report or raise an issue](https://docs.google.com/document/d/1bJniRgJL8ef_SWWcwdLi1WASlez0ZHLH556YRDA9mDE/edit#heading=h.hucspecdvz3q)
 
 ## File an "Issue" on Github
 
