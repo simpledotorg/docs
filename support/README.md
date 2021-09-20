@@ -10,7 +10,7 @@ Praveen Kumar at WHO India has compiled an excellent guide on what program offic
 
 ✋🏽​ [What surveillance officers should do when they encounter a bug or issue with the Simple app](https://docs.google.com/document/d/1RgWCn-gcXvEbnozAZPIqmVpdQrd_INYFNOKB0NBGpII/edit#heading=h.jymexnipl7j2)
 
-## Guide for field surveillance teams
+## How to file a bug
 
 If you use Simple in the field and want to help the tech teams behind Simple with useful bug reports, please reference this helpful guide on how to triage and document issues:
 
