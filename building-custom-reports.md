@@ -64,7 +64,7 @@ Metabase is available for the following Simple environments.
 
 If you're already familiar with Simple's data model and Metabase, you can get started with this quick demo.
 
-{% file src=".gitbook/assets/zoom\_2.mp4" caption="Demo: Building custom reports using Metabase" %}
+{% embed url="https://youtu.be/ooyUfKSJlXU" %}
 
 ## **Getting Started**
 
