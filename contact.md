@@ -21,7 +21,3 @@ Tim Cheadle, Director of Engineering
 Daniel Burka, Director of Product and Design  
 [daniel@simple.org](mailto:daniel@simple.org)
 
-### Org Chart \(Organogram\)
-
-🔒 [Org chart with contact information](https://docs.google.com/document/d/1okxYvLwd8uvqDrDPH5SjphmVppRrm63tsua1gklB1mI/edit?usp=sharing) \(Private\)
-

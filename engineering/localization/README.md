@@ -8,7 +8,7 @@ description: How we localize the Simple apps (mobile and backend) and other proj
 
 Currently, there are four separate projects that are localized, along with the resources on each project:
 
-* The android application \([LINK](https://github.com/simpledotorg/simple-android)\)
+* The Android application \([LINK](https://github.com/simpledotorg/simple-android)\)
   * Strings displayed in the user interface
 * The server application \([LINK](https://github.com/simpledotorg/simple-server)\)
   * HTML for the progress tab in the app
