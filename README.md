@@ -14,8 +14,9 @@ The Simple Android app that is used by healthcare workers to:
 
 1. Enroll patients in a hypertension control program
 2. Record patients' BPs and BP medicines
-3. Contact overdue patients to return them to care
-4. Track an individual facility's performance at controlling patients' BPs
+3. Set future appointments for patients
+4. Contact overdue patients to return them to care
+5. Track an individual facility's performance at controlling patients' BPs
 
 Github: [simpledotorg/simple-android](https://github.com/simpledotorg/simple-android)
 

@@ -16,7 +16,6 @@ Demo is publicly accessible to anyone and everyone. It is nearly identical to th
 2. While making a new account in the app, enter a 10-digit phone number. If you don't have an Indian number \(starting in +91\) just use a fake 10-digit number.
 3. Create any 4-digit PIN code.
 4. When choosing facilities, pick any of the "Demo" facilities \(e.g.: Demo Facility A, Demo Facility B etc.\)
-5. Tell someone from the Contributors team to _approve_ your account. Unless you get approved, no data will sync to your phone... but you can still create your own data and try out all the features!
 
 ## The Sandbox app
 
