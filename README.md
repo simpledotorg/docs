@@ -36,13 +36,24 @@ Github: [simpledotorg/simple-server](https://github.com/simpledotorg/simple-serv
 
 👩‍💻 The dashboard is primarily written in Ruby on Rails and PostgreSQL
 
-![](.gitbook/assets/dashboard-home%20%282%29.png)
+![](<.gitbook/assets/dashboard-home (2).png>)
 
 ![](.gitbook/assets/dashboard-reports.png)
 {% endtab %}
 {% endtabs %}
 
+## One-pager
+
+#### International version
+
+{% embed url="https://drive.google.com/open?authuser=dburka%40resolvetosavelives.org&id=1LzGcSK5nPS0izJT4kV7B3y6syl84ACqo&usp=drive_fs" %}
+
+#### India version
+
+{% embed url="https://drive.google.com/open?authuser=dburka%40resolvetosavelives.org&id=1M2BpHYZALN8UAOaLZUfwFKCRvmq0fI7s&usp=drive_fs" %}
+
 ## Want to try it out?
 
-{% page-ref page="how-to-test-the-simple-app.md" %}
-
+{% content-ref url="how-to-test-the-simple-app.md" %}
+[how-to-test-the-simple-app.md](how-to-test-the-simple-app.md)
+{% endcontent-ref %}
