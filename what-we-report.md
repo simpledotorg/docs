@@ -10,11 +10,11 @@ Simple collects the bare minimum of information necessary to identify a patient,
 
 ## Registrations
 
-**Monthly registered patients:** the number of patients registered at a facility during a month where the patient \(1\) is not deleted and \(2\) is hypertensive.
+**Monthly registered patients:** the number of patients registered at a facility during a month where the patient (1) is not deleted and (2) is hypertensive.
 
 **Total registered patients:** the number of patients registered at a facility. _Note: this is calculated by adding monthly registered patients at a facility over time_
 
-```text
+```
 /* Sample SQL query */
 SELECT Count(DISTINCT "patients"."id") AS count_id,
        Date_trunc('month', "patients"."recorded_at"::timestamptz AT TIME ZONE 'ETC/UTC') AT TIME ZONE 'ETC/UTC' AS date_trunc_month_patients_recorded_at_timestamptz_at_time_zone_
@@ -33,9 +33,9 @@ GROUP BY date_trunc('month', "patients"."recorded_at"::timestamptz AT TIME ZONE 
 
 ## Total assigned patients
 
-The number of patients a facility is responsible to control their hypertension where a patient \(1\) is not deleted \(2\) is hypertensive and \(3\) is not dead
+The number of patients a facility is responsible to control their hypertension where a patient (1) is not deleted (2) is hypertensive and (3) is not dead
 
-```text
+```
 /* Sample SQL query */
 SELECT COUNT(DISTINCT "patients"."id") AS count_id,
        DATE_TRUNC('month', "patients"."recorded_at"::timestamptz AT TIME ZONE 'ASIA/KOLKATA') AT TIME ZONE 'ASIA/KOLKATA' AS date_trunc_month_patients_recorded_at_timestamptz_at_time_zone_
@@ -56,11 +56,11 @@ GROUP BY DATE_TRUNC('month', "patients"."recorded_at"::timestamptz AT TIME ZONE 
 
 ## BP controlled
 
-The number of patients assigned to a facility registered before the last 3 months where the patient \(1\) is not deleted \(2\) is hypertensive \(3\) is not dead \(4\) has a BP measure taken within the last 3 months and \(5\) their last BP measure taken is &lt;140/90.
+The number of patients assigned to a facility registered before the last 3 months where the patient (1) is not deleted (2) is hypertensive (3) is not dead (4) has a BP measure taken within the last 3 months and (5) their last BP measure taken is <140/90.
 
 _Note: We display this key indicator as a rate where the denominator is total assigned patients registered before the last 3 months._
 
-```text
+```
 /* Sample SQL query */
 SELECT COUNT(*)
 FROM
@@ -84,11 +84,11 @@ WHERE (systolic < 140
 
 ## BP not controlled
 
-The number of patients assigned to a facility, registered before the last 3 months where the patient \(1\) is not deleted \(2\) is hypertensive \(3\) is not dead \(4\) has a BP measure taken within the last 3 months and \(5\) the last BP measure taken is ≥140/90
+The number of patients assigned to a facility, registered before the last 3 months where the patient (1) is not deleted (2) is hypertensive (3) is not dead (4) has a BP measure taken within the last 3 months and (5) the last BP measure taken is ≥140/90
 
 _Note: We display this key indicator as a rate where the denominator is total assigned patients registered before the last 3 months._
 
-```text
+```
 /* Sample SQL query */
 SELECT COUNT(*)
 FROM
@@ -110,11 +110,11 @@ WHERE (systolic >= 140
 
 ## Visited but no BP taken
 
-The number of patients assigned to a facility, registered before the last 3 months where the patient \(1\) is not deleted \(2\) is hypertensive \(3\) is not dead \(4\) has at least one of the following in the last 3 months: an appointment created, a drug refilled, a blood sugar taken and \(4\) doesn't have any BPs recorded within the last 3 months.
+The number of patients assigned to a facility, registered before the last 3 months where the patient (1) is not deleted (2) is hypertensive (3) is not dead (4) has at least one of the following in the last 3 months: an appointment created, a drug refilled, a blood sugar taken and (4) doesn't have any BPs recorded within the last 3 months.
 
 _Note: We display this key indicator as a rate where the denominator is total assigned patients registered before the last 3 months._
 
-```text
+```
 /* Sample SQL query */
 SELECT COUNT(DISTINCT "patients"."id")
 FROM "patients"
@@ -156,13 +156,13 @@ WHERE "patients"."deleted_at" IS NULL
 
 ## Missed visits
 
-The number of patients assigned to a facility, registered before the last 3 months where the patient \(1\) is not deleted \(2\) is hypertensive \(3\) is not dead and \(4\) doesn't have a visit or BP recorded within the last 3 months.
+The number of patients assigned to a facility, registered before the last 3 months where the patient (1) is not deleted (2) is hypertensive (3) is not dead and (4) doesn't have a visit or BP recorded within the last 3 months.
 
 _Note: The SQL query is a combination of all the queries in the equation above_
 
 _Note: We display this key indicator as a rate where the denominator is total assigned patients registered before the last 3 months._
 
-```text
+```
   Total assigned patients (registered before the last 3 months)
 - Patients with a visit but no BP taken
 - Patients with controlled BP
@@ -175,11 +175,11 @@ _Note: We display this key indicator as a rate where the denominator is total as
 
 ## Lost to follow-up
 
-The number of patients assigned to a facility where the patient \(1\) didn't have a BP recorded within the last year \(2\) was registered more than a year ago \(3\) is hypertensive \(4\) is not dead and \(5\) is not deleted.
+The number of patients assigned to a facility where the patient (1) didn't have a BP recorded within the last year (2) was registered more than a year ago (3) is hypertensive (4) is not dead and (5) is not deleted.
 
 _Note: We display this key indicator as a rate where the denominator is total assigned patients._
 
-```text
+```
 /* Sample SQL query */
 SELECT DISTINCT "patients".*
 FROM "patients"
@@ -201,9 +201,9 @@ WHERE "patients"."deleted_at" IS NULL
 
 ## Patients under care
 
-The number of patients assigned to a facility where the patient \(1\) had a BP recorded within the last year \(2\) is hypertensive \(3\) is not dead and \(4\) is not deleted.
+The number of patients assigned to a facility where the patient (1) had a BP recorded within the last year (2) is hypertensive (3) is not dead and (4) is not deleted.
 
-```text
+```
 SELECT DISTINCT "patients".*
 FROM "patients"
 INNER JOIN "medical_histories" ON "medical_histories"."deleted_at" IS NULL
@@ -223,9 +223,9 @@ WHERE "patients"."deleted_at" IS NULL
 
 ## Follow-up patients
 
-**Follow-up patients per user:** For a given period, the number of patients attended by a user where the patient \(1\) is hypertensive \(2\) is not deleted \(3\) was registered before that period and \(4\) had a BP taken, a blood sugar taken, an appointment scheduled, or their medications refilled during that period by that user.
+**Follow-up patients per user:** For a given period, the number of patients attended by a user where the patient (1) is hypertensive (2) is not deleted (3) was registered before that period and (4) had a BP taken, a blood sugar taken, an appointment scheduled, or their medications refilled during that period by that user.
 
-**Follow-up patients per facility:** For a given period, the number of patients that visited a facility where the patient \(1\) is hypertensive \(2\) is not deleted \(3\) was registered before that period and \(4\) had a BP taken, a blood sugar taken, an appointment scheduled, or their medications refilled during that period at that facility.
+**Follow-up patients per facility:** For a given period, the number of patients that visited a facility where the patient (1) is hypertensive (2) is not deleted (3) was registered before that period and (4) had a BP taken, a blood sugar taken, an appointment scheduled, or their medications refilled during that period at that facility.
 
 **Follow-up patients per region:** For a given period, the sum of follow-up patients across all facilities in the region.
 
@@ -239,11 +239,11 @@ Facilities registered in Simple where the current user can view reports.
 
 ## Inactive facilities
 
-Facilities registered in Simple where the current user can view reports and where &lt;10 patients had a BP recorded in the last 7 days.
+Facilities registered in Simple where the current user can view reports and where <10 patients had a BP recorded in the last 7 days.
 
-**How it's calculated:** First we calculate total active facilities \(Facilities where &gt;10 patients had any BPs recorded in the last 7 days\). Then we \(1\) grab all facilities the admin has access to \(2\) count the total number of patients with a BP taken in a day for the last 7 days at each facility and \(3\) return the number of facilities where the facility has had more than 10 patients with a BP taken in the last week.
+**How it's calculated:** First we calculate total active facilities (Facilities where >10 patients had any BPs recorded in the last 7 days). Then we (1) grab all facilities the admin has access to (2) count the total number of patients with a BP taken in a day for the last 7 days at each facility and (3) return the number of facilities where the facility has had more than 10 patients with a BP taken in the last week.
 
-```text
+```
 /* Sample SQL query */
 SELECT "blood_pressures_per_facility_per_days"."facility_id"
 FROM "blood_pressures_per_facility_per_days"
@@ -301,9 +301,9 @@ Number of unique patients with a BP measure taken in a given number of days. If 
 
 ## BP measure taken
 
-Counts all blood pressures recorded by each healthcare worker at a facility where the patient \(1\) is hypertensive and \(2\) is not deleted.
+Counts all blood pressures recorded by each healthcare worker at a facility where the patient (1) is hypertensive and (2) is not deleted.
 
-```text
+```
 /* Sample SQL query */
 SELECT Count(DISTINCT "blood_pressures"."id") AS count_id,
        Date_trunc('month', "blood_pressures"."recorded_at"),
@@ -332,7 +332,7 @@ WHERE "blood_pressures"."deleted_at" IS NULL
 
 All blood pressures recorded at a facility.
 
-```text
+```
 /* Sample SQL query */
 SELECT "blood_pressures".*
 FROM "blood_pressures"
@@ -361,13 +361,13 @@ Hypertension control takes time, and cohorts allow us to track a set of patients
 
 We use monthly cohorts to quickly track performance, and quarterly cohorts to determine systematic improvements over longer timeframes.
 
-The calculations for monthly and quarterly cohorts are the same. The only difference is in the registration period \(month versus quarter\).
+The calculations for monthly and quarterly cohorts are the same. The only difference is in the registration period (month versus quarter).
 
 ### Monthly cohort reports
 
-**BP controlled numerator:** The number of patients assigned to a facility registered during a month where the patient \(1\) is hypertensive \(2\) is not deleted \(3\) is not dead \(4\) has a last BP in the following 2 months and \(5\) the last BP is &lt;140/90.
+**BP controlled numerator:** The number of patients assigned to a facility registered during a month where the patient (1) is hypertensive (2) is not deleted (3) is not dead (4) has a last BP in the following 2 months and (5) the last BP is <140/90.
 
-```text
+```
 /* Sample SQL query */
 SELECT COUNT(*)
 FROM
@@ -407,9 +407,9 @@ WHERE "latest_blood_pressures_per_patient_per_months"."deleted_at" IS NULL
                             ["id", "acc3da36-c5d2-42e1-a1fe-29d6a40b0580"]]
 ```
 
-**BP not controlled numerator:** The number of patients assigned to a facility registered during a month where the patient \(1\) is hypertensive \(2\) is not deleted \(3\) is not dead \(4\) has a last BP in the following 2 months and \(5\) the last BP is ≥140/90.
+**BP not controlled numerator:** The number of patients assigned to a facility registered during a month where the patient (1) is hypertensive (2) is not deleted (3) is not dead (4) has a last BP in the following 2 months and (5) the last BP is ≥140/90.
 
-```text
+```
 /* Sample SQL query */
 SELECT COUNT(*)
 FROM
@@ -451,7 +451,7 @@ WHERE "latest_blood_pressures_per_patient_per_months"."deleted_at" IS NULL
 
 **No BP taken numerator:** The number of patients assigned to a facility registered during a month minus the number of patients with a BP taken in the following 2 months.
 
-```text
+```
 /* Sample SQL query */
 SELECT COUNT(*)
 FROM
@@ -487,9 +487,9 @@ FROM
 WHERE "latest_blood_pressures_per_patient_per_months"."deleted_at" IS NULL
 ```
 
-**Denominator:** The number of patients assigned to a facility where the patient \(1\) is hypertensive \(2\) is not deleted and \(3\) is not dead.
+**Denominator:** The number of patients assigned to a facility where the patient (1) is hypertensive (2) is not deleted and (3) is not dead.
 
-```text
+```
 /* Sample SQL query */
 SELECT COUNT(DISTINCT "patients"."id")
 FROM "patients"
@@ -518,7 +518,7 @@ WHERE "patients"."deleted_at" IS NULL
 
 ## Overdue patients
 
-All patients with an appointment scheduled at a facility managed by a program manager where \(1\) their appointment date has passed \(2\) the appointment status is scheduled \(3\) and they haven't been temporarily removed from the overdue list.
+All patients with an appointment scheduled at a facility managed by a program manager where (1) their appointment date has passed (2) the appointment status is scheduled (3) and they haven't been temporarily removed from the overdue list.
 
 Patients can be temporarily removed for 7 days if they've been contacted by a healthcare worker and marked "Agreed to visit" in the Simple App. Patients can also be removed for 30 days if they've been marked as "Remind to call later" by a healthcare worker in the Simple App.
 
@@ -528,8 +528,8 @@ Patients can be temporarily removed for 7 days if they've been contacted by a he
 
 The overdue list orders patients by two factors:
 
-1. Risk level \(high risk first, then regular risk\)
-2. Days overdue \(ordered by least to most overdue\)
+1. Risk level (high risk first, then regular risk)
+2. Days overdue (ordered by least to most overdue)
 
 #### Risk level
 
@@ -537,20 +537,25 @@ Patients are categorized into High risk and Regular risk. A patient is High risk
 
 * Their latest BP is ≥180/110
 * OR if their medical history indicates prior heart attack or stroke AND their latest BP is ≥140/90
-* OR if their latest blood sugar is not controlled \(see [Blood sugar controlled](https://docs.simple.org/what-we-report#blood-sugar-controlled)\)
+* OR if their latest blood sugar is not controlled (see [Blood sugar controlled](https://docs.simple.org/what-we-report#blood-sugar-controlled))
+
+## Overdue patients contacted
+
+All patients called during a month by healthcare workers in a facility or region. These patients appear in the "Overdue" tab in the Simple App and Dashboard. A patient is counted as "contacted" whenever a healthcare worker or Dashboard admin is marked as "Agreed to visit", "Remind to call later", or "Remove from the overdue list".
+
+**Why is this important?** It's important for patients to come back to care to continue with their hypertension treatment and get their hypertension under control. This key indicator gives program administrators an idea of how frequently healthcare workers are reminding patients to attend their appointments and continue with their treatment.
 
 ## Blood sugar controlled
 
 A blood sugar is considered controlled if it is under the following thresholds:
 
-* Random blood sugar: &lt;300 mg/DL
-* Post prandial blood sugar: &lt;300 mg/DL
-* Fasting blood sugar: &lt;200 mg/DL
-* HbA1c: &lt;9.0%
+* Random blood sugar: <300 mg/DL
+* Post prandial blood sugar: <300 mg/DL
+* Fasting blood sugar: <200 mg/DL
+* HbA1c: <9.0%
 
 ## Dead patients
 
 Patients who have been marked as dead. The patient's date of death is not recorded.
 
 **Why is this important?** Dead patients are excluded from all key indicators.
-
