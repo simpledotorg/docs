@@ -554,6 +554,16 @@ A blood sugar is considered controlled if it is under the following thresholds:
 * Fasting blood sugar: <200 mg/DL
 * HbA1c: <9.0%
 
+## Hypertension patient coverage
+
+Total registered patients divided by the region's total estimated hypertensive population.
+
+**Total estimated hypertensive population, district:** The estimate of people in a region diagnosed with hypertension.
+
+**Total estimated hypertensive population, state:** The sum of a state's district estimated hypertensive populations entered on the Dashboard.
+
+_Note: This number is only displayed if all districts have an estimated hypertensive population._
+
 ## Dead patients
 
 Patients who have been marked as dead. The patient's date of death is not recorded.
