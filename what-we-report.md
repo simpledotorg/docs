@@ -558,7 +558,7 @@ A blood sugar is considered controlled if it is under the following thresholds:
 
 Total registered patients divided by the region's total estimated hypertensive population.
 
-**Total estimated hypertensive population, district:** The approximate number of people in a region diagnosed with hypertension.
+**Total estimated hypertensive population, district:** The approximate number of people in a region  with hypertension.
 
 **Total estimated hypertensive population, state:** The sum of a state's district estimated hypertensive populations entered on the Dashboard.
 
