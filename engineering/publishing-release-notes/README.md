@@ -10,11 +10,9 @@ description: Publish release notes with short changelogs for both the app and th
 Mark your release with the appropriate emoji!
 {% endhint %}
 
-### 👻 Sandbox 
+### :ghost: Sandbox&#x20;
 
-### 🏇 Demo/Staging 
+### :horse\_racing: Demo/Staging&#x20;
 
-### 🚀 Production
-
-
+### :rocket: Production
 

@@ -27,7 +27,6 @@
   * [Headers sent from the app](engineering/android/headers-sent-from-the-app.md)
 * [Backend](engineering/backend/README.md)
   * [Audit logs](engineering/backend/audit-logs.md)
-  * [Dashboard permissions](engineering/backend/dashboard-permissions.md)
   * [Major flows](engineering/backend/major-flows.md)
 * [Localization](engineering/localization/README.md)
   * [Android](engineering/localization/android.md)
@@ -35,7 +34,7 @@
   * [Adding/Editing translations for a project](engineering/localization/adding-editing-translations-for-a-project.md)
   * [Reviewing a translation](engineering/localization/reviewing-a-translation.md)
 
-## Design <a id="design-1"></a>
+## Design <a href="#design-1" id="design-1"></a>
 
 * [Design](design-1/design.md)
 * [User testing](design-1/user-studies/README.md)
@@ -52,6 +51,5 @@
 ## Elsewhere
 
 * [Simple.org](https://simple.org)
-* [Source code \(GitHub\)](https://github.com/simpledotorg)
-* [Join our Slack \(Slack\)](https://goo.gl/forms/csgMyxjOwpvB5ilr2)
-
+* [Source code (GitHub)](https://github.com/simpledotorg)
+* [Join our Slack (Slack)](https://goo.gl/forms/csgMyxjOwpvB5ilr2)
