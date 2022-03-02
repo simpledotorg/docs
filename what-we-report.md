@@ -4,9 +4,17 @@ description: A brief description of our key indicators and how they're calculate
 
 # What we report
 
-In order to improve hypertension treatment for a clinic or even an entire population, you have to understand how the system is performing. You need to see if patients are getting healthy, if they're being treated, if they're coming back for follow-up visits, and if they're being registered into the system.
+To improve hypertension and diabetes treatment for a clinic or even an entire population, you have to understand how the system is performing. You need to see if patients are getting healthy, if they're being treated, if they're coming back for follow-up visits, and if they're being registered into the system.
 
-Simple collects the bare minimum of information necessary to identify a patient, treat the patient for hypertension, and schedule a follow-up. We aggregate this information to report the key indicators listed below.
+Simple collects the bare minimum of information necessary to identify a patient, treat the patient for hypertension and diabetes, and schedule a follow-up. We aggregate this information at multiple region levels. Each country has 5 regions and each country has unique region names:\
+
+
+| Country         | Region 1     | Region 2 | Region 3 | Region 4 | Region 5 |
+| --------------- | ------------ | -------- | -------- | -------- | -------- |
+| 🇮🇳 India      | Organization | State    | District | Block    | Facility |
+| 🇧🇩 Bangladesh | Organization | Division | District | Upazila  | Facility |
+| 🇪🇹 Ethiopia   | Organization | Region   | Zone     | Woreda   | Facility |
+| 🇱🇰 Sri Lanka  | Organization | ???      | ???      | ???      | Facility |
 
 ## Registrations
 
