@@ -14,7 +14,6 @@ Simple collects the bare minimum of information necessary to identify a patient,
 | 🇮🇳 India      | Organization | State    | District | Block    | Facility |
 | 🇧🇩 Bangladesh | Organization | Division | District | Upazila  | Facility |
 | 🇪🇹 Ethiopia   | Organization | Region   | Zone     | Woreda   | Facility |
-| 🇱🇰 Sri Lanka  | Organization | ???      | ???      | ???      | Facility |
 
 ## Registrations
 
