@@ -22,69 +22,17 @@ Simple collects the bare minimum of information necessary to identify a patient,
 
 **Total registered patients:** the number of patients registered at a facility. _Note: this is calculated by adding monthly registered patients at a facility over time_
 
-```
-/* Sample SQL query */
-SELECT Count(DISTINCT "patients"."id") AS count_id,
-       Date_trunc('month', "patients"."recorded_at"::timestamptz AT TIME ZONE 'ETC/UTC') AT TIME ZONE 'ETC/UTC' AS date_trunc_month_patients_recorded_at_timestamptz_at_time_zone_
-FROM "patients"
-INNER JOIN "medical_histories" ON "medical_histories"."deleted_at" IS NULL
-AND "medical_histories"."patient_id" = "patients"."id"
-WHERE "patients"."deleted_at" IS NULL
-  AND "patients"."registration_facility_id" = $1
-  AND "medical_histories"."deleted_at" IS NULL
-  AND "medical_histories"."hypertension" = $2
-  AND ("patients"."recorded_at" IS NOT NULL)
-GROUP BY date_trunc('month', "patients"."recorded_at"::timestamptz AT TIME ZONE 'ETC/UTC') AT TIME ZONE 'ETC/UTC' [["registration_facility_id", "2e768fb2-9de0-4a7d-a64d-9f5b4c1863f4"],["hypertension", "yes"]]"
-```
-
 **Why is this important?** Program managers monitor registration numbers to ensure healthcare workers are registering patients into the system.
 
 ## Total assigned patients
 
 The number of patients a facility is responsible to control their hypertension where a patient (1) is not deleted (2) is hypertensive and (3) is not dead
 
-```
-/* Sample SQL query */
-SELECT COUNT(DISTINCT "patients"."id") AS count_id,
-       DATE_TRUNC('month', "patients"."recorded_at"::timestamptz AT TIME ZONE 'ASIA/KOLKATA') AT TIME ZONE 'ASIA/KOLKATA' AS date_trunc_month_patients_recorded_at_timestamptz_at_time_zone_
-FROM "patients"
-INNER JOIN "medical_histories" ON "medical_histories"."deleted_at" IS NULL
-AND "medical_histories"."patient_id" = "patients"."id"
-WHERE "patients"."deleted_at" IS NULL
-  AND "patients"."assigned_facility_id" = $1
-  AND "medical_histories"."deleted_at" IS NULL
-  AND "medical_histories"."hypertension" = $2
-  AND "patients"."status" != $3
-  AND ("patients"."recorded_at" IS NOT NULL)
-GROUP BY DATE_TRUNC('month', "patients"."recorded_at"::timestamptz AT TIME ZONE 'ASIA/KOLKATA') AT TIME ZONE 'ASIA/KOLKATA' [["assigned_facility_id", "fdbeb339-770f-4021-a81a-44f9bc9a5e79"],["hypertension", "yes"],["status", "dead"]]
-
-```
-
 **Why is this important?** This indicator represents the number of patients a facility is responsible for. It is the population base used to calculate indicators like BP controlled and Missed visits.
 
 ## BP controlled
 
 The number of patients assigned to a facility registered before the last 3 months where the patient (1) is not deleted (2) is hypertensive (3) is not dead (4) has a BP measure taken within the last 3 months and (5) their last BP measure taken is <140/90.
-
-_Note: We display this key indicator as a rate where the denominator is total assigned patients registered before the last 3 months._
-
-```
-/* Sample SQL query */
-SELECT COUNT(*)
-FROM
-  (SELECT DISTINCT ON (latest_blood_pressures_per_patient_per_months.patient_id) *
-   FROM "latest_blood_pressures_per_patient_per_months"
-   WHERE (medical_history_hypertension = 'yes')
-     AND "latest_blood_pressures_per_patient_per_months"."patient_status" != $1
-     AND "latest_blood_pressures_per_patient_per_months"."assigned_facility_id" = $2
-     AND (patient_recorded_at <= '2019-07-31 18:29:59.999999')
-     AND (bp_recorded_at >= '2019-07-31 18:30:00'
-          AND bp_recorded_at <= '2019-10-31 18:29:59.999999')
-   ORDER BY latest_blood_pressures_per_patient_per_months.patient_id,
-            bp_recorded_at DESC, bp_id) latest_blood_pressures_per_patient_per_months
-WHERE (systolic < 140
-       AND diastolic < 90) [["patient_status", "dead"],["assigned_facility_id", "399c52a8-4b49-41d4-8704-cc3985ac26e6"]]
-```
 
 **Why are patients registered within the last 3 months excluded?** Three months gives patients time to take their hypertension medication. Newly registered patients have uncontrolled blood pressure, and including them would not reflect an accurate picture of actual controlled patients.
 
@@ -96,24 +44,6 @@ The number of patients assigned to a facility, registered before the last 3 mont
 
 _Note: We display this key indicator as a rate where the denominator is total assigned patients registered before the last 3 months._
 
-```
-/* Sample SQL query */
-SELECT COUNT(*)
-FROM
-  (SELECT DISTINCT ON (latest_blood_pressures_per_patient_per_months.patient_id) *
-   FROM "latest_blood_pressures_per_patient_per_months"
-   WHERE (medical_history_hypertension = 'yes')
-     AND "latest_blood_pressures_per_patient_per_months"."patient_status" != $1
-     AND "latest_blood_pressures_per_patient_per_months"."assigned_facility_id" = $2
-     AND (patient_recorded_at <= '2019-07-31 18:29:59.999999')
-     AND (bp_recorded_at >= '2019-07-31 18:30:00'
-          AND bp_recorded_at <= '2019-10-31 18:29:59.999999')
-   ORDER BY latest_blood_pressures_per_patient_per_months.patient_id,
-            bp_recorded_at DESC, bp_id) latest_blood_pressures_per_patient_per_months
-WHERE (systolic >= 140
-       OR diastolic >= 90) [["patient_status", "dead"],["assigned_facility_id", "399c52a8-4b49-41d4-8704-cc3985ac26e6"]]
-```
-
 **Why is this important?** It shows which patients are coming back to care, but require continued hypertension treatment to control their blood pressure.
 
 ## Visited but no BP taken
@@ -121,44 +51,6 @@ WHERE (systolic >= 140
 The number of patients assigned to a facility, registered before the last 3 months where the patient (1) is not deleted (2) is hypertensive (3) is not dead (4) has at least one of the following in the last 3 months: an appointment created, a drug refilled, a blood sugar taken and (4) doesn't have any BPs recorded within the last 3 months.
 
 _Note: We display this key indicator as a rate where the denominator is total assigned patients registered before the last 3 months._
-
-```
-/* Sample SQL query */
-SELECT COUNT(DISTINCT "patients"."id")
-FROM "patients"
-INNER JOIN "medical_histories" ON "medical_histories"."deleted_at" IS NULL
-AND "medical_histories"."patient_id" = "patients"."id"
-LEFT OUTER JOIN latest_blood_pressures_per_patient_per_months ON patients.id = latest_blood_pressures_per_patient_per_months.patient_id
-LEFT OUTER JOIN appointments ON appointments.patient_id = patients.id
-AND appointments.device_created_at >= '2019-02-28 18:30:00'
-AND appointments.device_created_at <= '2019-05-31 18:29:59.999999'
-LEFT OUTER JOIN prescription_drugs ON prescription_drugs.patient_id = patients.id
-AND prescription_drugs.device_created_at >= '2019-02-28 18:30:00'
-AND prescription_drugs.device_created_at <= '2019-05-31 18:29:59.999999'
-LEFT OUTER JOIN blood_sugars ON blood_sugars.patient_id = patients.id
-AND blood_sugars.recorded_at >= '2019-02-28 18:30:00'
-AND blood_sugars.recorded_at <= '2019-05-31 18:29:59.999999'
-WHERE "patients"."deleted_at" IS NULL
-  AND "medical_histories"."deleted_at" IS NULL
-  AND "medical_histories"."hypertension" = $1
-  AND "patients"."status" != $2
-  AND (bp_recorded_at > '2018-05-31'
-       AND bp_recorded_at < '2019-05-31 18:29:59.999999'
-       OR patients.recorded_at >= '2018-05-31')
-  AND "patients"."assigned_facility_id" IN $3
-  AND (patients.recorded_at <= '2019-02-28 18:30:00')
-  AND (appointments.id IS NOT NULL
-       OR prescription_drugs.id IS NOT NULL
-       OR blood_sugars.id IS NOT NULL)
-  AND (NOT EXISTS
-         (SELECT 1
-          FROM blood_pressures bps
-          WHERE patients.id = bps.patient_id
-            AND bps.recorded_at >= '2019-02-28 18:30:00'
-            AND bps.recorded_at <= '2019-05-31 18:29:59.999999')) [["hypertension", "yes"],
-                                                                   ["status", "dead"],
-                                                                   ["assigned_facility_id", "3a7e86d2-c272-4303-8ffa-d6d1b54874b3"]]
-```
 
 **Why is this important?** We started tracking this indicator during COVID-19, because patients were visiting facilities to pick up medications but didn't have their BP taken to avoid contact with healthcare workers and prevent COVID infection. This is not very common, but helps capture the entire patient base.
 
@@ -170,15 +62,6 @@ _Note: The SQL query is a combination of all the queries in the equation above_
 
 _Note: We display this key indicator as a rate where the denominator is total assigned patients registered before the last 3 months._
 
-```
-  Total assigned patients (registered before the last 3 months)
-- Patients with a visit but no BP taken
-- Patients with controlled BP
-- Patients with uncontrolled BP
-=
-  Missed vists
-```
-
 **Why is this important?** This number reflects how good facilities are at reminding patients to come back to care in the 3-month period we're tracking controlled and uncontrolled patients.
 
 ## Lost to follow-up
@@ -187,45 +70,11 @@ The number of patients assigned to a facility where the patient (1) didn't have 
 
 _Note: We display this key indicator as a rate where the denominator is total assigned patients._
 
-```
-/* Sample SQL query */
-SELECT DISTINCT "patients".*
-FROM "patients"
-INNER JOIN "medical_histories" ON "medical_histories"."deleted_at" IS NULL
-AND "medical_histories"."patient_id" = "patients"."id"
-LEFT OUTER JOIN latest_blood_pressures_per_patient_per_months ON patients.id = latest_blood_pressures_per_patient_per_months.patient_id
-AND bp_recorded_at > '2020-04-30' /* Date from 1 year ago: 1 year is the LTFU period */
-AND bp_recorded_at < '2021-04-30 23:59:59.999999' /* Current date */
-WHERE "patients"."deleted_at" IS NULL
-  AND "medical_histories"."deleted_at" IS NULL
-  AND "medical_histories"."hypertension" = 'yes'
-  AND "patients"."status" != 'dead'
-  AND "patients"."assigned_facility_id" = 'ad0ff5e2-7f0f-467b-9855-07b894e4a6a7'
-  AND (bp_recorded_at IS NULL
-       AND patients.recorded_at < '2020-04-30') /* Date from 1 year ago */
-```
-
 **Why is this important?** The main key indicators exclude lost to follow-up patients to allow program managers to assess the health of patients that are coming back to care.
 
 ## Patients under care
 
 The number of patients assigned to a facility where the patient (1) had a BP recorded within the last year (2) is hypertensive (3) is not dead and (4) is not deleted.
-
-```
-SELECT DISTINCT "patients".*
-FROM "patients"
-INNER JOIN "medical_histories" ON "medical_histories"."deleted_at" IS NULL
-AND "medical_histories"."patient_id" = "patients"."id"
-LEFT OUTER JOIN latest_blood_pressures_per_patient_per_months ON patients.id =  latest_blood_pressures_per_patient_per_months.patient_id
-WHERE "patients"."deleted_at" IS NULL
-  AND "medical_histories"."deleted_at" IS NULL
-  AND "medical_histories"."hypertension" = 'yes'
-  AND "patients"."status" != 'dead'
-  AND "patients"."assigned_facility_id" = '1f783f44-3153-44f2-a99e-6587f31da6c5'
-  AND (bp_recorded_at > '2020-05-31'              /* Date from 1 year ago: 1 year is the LTFU period */
-       AND bp_recorded_at < '2021-05-13'          /* Current Date */
-       OR patients.recorded_at >= '2020-05-31')   /* Date from 1 year ago */
-```
 
 **Why is this important?** Represents the number of "active" patients or the number of patients that aren't lost to follow-up.
 
@@ -251,54 +100,6 @@ Facilities registered in Simple where the current user can view reports and wher
 
 **How it's calculated:** First we calculate total active facilities (Facilities where >10 patients had any BPs recorded in the last 7 days). Then we (1) grab all facilities the admin has access to (2) count the total number of patients with a BP taken in a day for the last 7 days at each facility and (3) return the number of facilities where the facility has had more than 10 patients with a BP taken in the last week.
 
-```
-/* Sample SQL query */
-SELECT "blood_pressures_per_facility_per_days"."facility_id"
-FROM "blood_pressures_per_facility_per_days"
-WHERE "blood_pressures_per_facility_per_days"."deleted_at" IS NULL
-  AND "blood_pressures_per_facility_per_days"."facility_id" IN
-    (SELECT "facilities"."id"
-     FROM "facilities"
-     WHERE "facilities"."deleted_at" IS NULL
-       AND "facilities"."id" IN
-         (SELECT "facilities"."id"
-          FROM (
-                  (SELECT "facilities".*
-                   FROM "facilities"
-                   WHERE "facilities"."deleted_at" IS NULL)
-                UNION
-                  (SELECT "facilities".*
-                   FROM "facilities"
-                   WHERE "facilities"."deleted_at" IS NULL
-                     AND "facilities"."facility_group_id" IN
-                       (SELECT id
-                        FROM (
-                                (SELECT "facility_groups".*
-                                 FROM "facility_groups"
-                                 WHERE "facility_groups"."deleted_at" IS NULL
-                                   AND "facility_groups"."deleted_at" IS NULL)
-                              UNION
-                                (SELECT "facility_groups".*
-                                 FROM "facility_groups"
-                                 WHERE "facility_groups"."deleted_at" IS NULL
-                                   AND "facility_groups"."deleted_at" IS NULL
-                                   AND "facility_groups"."organization_id" IN
-                                     (SELECT "organizations"."id"
-                                      FROM "organizations"
-                                      WHERE "organizations"."deleted_at" IS NULL))) "facility_groups"))) "facilities"))
-  AND (((YEAR,
-         DAY) IN (('2021',
-                   '91'),('2021',
-                          '90'),('2021',
-                                 '89'),('2021',
-                                        '88'),('2021',
-                                               '87'),('2021',
-                                                      '86'),('2021',
-                                                             '85'))))
-GROUP BY "blood_pressures_per_facility_per_days"."facility_id"
-HAVING (SUM(bp_count) >= 10)
-```
-
 **Why is this important?** This indicator allows program managers to see which facilities may be facing technical issues with the system or healthcare workers that are forgetting to record BP measures into the system.
 
 ## Patients with BP measure taken
@@ -311,53 +112,11 @@ Number of unique patients with a BP measure taken in a given number of days. If 
 
 Counts all blood pressures recorded by each healthcare worker at a facility where the patient (1) is hypertensive and (2) is not deleted.
 
-```
-/* Sample SQL query */
-SELECT Count(DISTINCT "blood_pressures"."id") AS count_id,
-       Date_trunc('month', "blood_pressures"."recorded_at"),
-       "blood_pressures"."user_id" AS blood_pressures_user_id
-FROM "blood_pressures"
-INNER JOIN "patients" ON "patients"."deleted_at" IS NULL
-AND "patients"."id" = "blood_pressures"."patient_id"
-INNER JOIN "medical_histories" ON "medical_histories"."deleted_at" IS NULL
-AND "medical_histories"."patient_id" = "patients"."id"
-WHERE "blood_pressures"."deleted_at" IS NULL
-  AND "patients"."deleted_at" IS NULL
-  AND "medical_histories"."deleted_at" IS NULL
-  AND "medical_histories"."hypertension" = $1
-  AND ("blood_pressures"."recorded_at" IS NOT NULL)
-  AND "blood_pressures"."facility_id" IN
-    (SELECT "facilities"."id"
-     FROM "facilities"
-     WHERE "facilities"."deleted_at" IS NULL
-       AND "facilities"."id" = $2) GROUP  BY Date_trunc('month', "blood_pressures"."recorded_at"),
-                                             "blood_pressures"."user_id"
-```
-
 **Why is this important?** Similar to inactive facilities, this allows program managers to see which facilities are facing technical issues or facilities with healthcare workers that aren't recording BP measures into the system.
 
 ## BP log
 
 All blood pressures recorded at a facility.
-
-```
-/* Sample SQL query */
-SELECT "blood_pressures".*
-FROM "blood_pressures"
-INNER JOIN "observations" ON "blood_pressures"."id" = "observations"."observable_id"
-INNER JOIN "encounters" ON "observations"."encounter_id" = "encounters"."id"
-WHERE "blood_pressures"."deleted_at" IS NULL
-  AND "observations"."deleted_at" IS NULL
-  AND "encounters"."deleted_at" IS NULL
-  AND "encounters"."facility_id" = $1
-  AND "observations"."observable_type" = $2
-ORDER BY DATE(recorded_at) DESC, recorded_at ASC
-LIMIT $3
-OFFSET $4 [["facility_id", "acc3da36-c5d2-42e1-a1fe-29d6a40b0580"],
-           ["observable_type", "BloodPressure"],
-           ["LIMIT", 20],
-           ["OFFSET", 0]]
-```
 
 **Why is this important?** This allows program managers to see if healthcare workers are inputting accurate BP readings into the system. There are cases when healthcare workers round systolic and diastolic numbers, and it's really important for them to enter the exact reading, otherwise the higher-level indicators will be inaccurate.
 
@@ -375,152 +134,11 @@ The calculations for monthly and quarterly cohorts are the same. The only differ
 
 **BP controlled numerator:** The number of patients assigned to a facility registered during a month where the patient (1) is hypertensive (2) is not deleted (3) is not dead (4) has a last BP in the following 2 months and (5) the last BP is <140/90.
 
-```
-/* Sample SQL query */
-SELECT COUNT(*)
-FROM
-  (SELECT DISTINCT ON (patient_id) *
-   FROM "latest_blood_pressures_per_patient_per_months"
-   WHERE "latest_blood_pressures_per_patient_per_months"."deleted_at" IS NULL
-     AND "latest_blood_pressures_per_patient_per_months"."patient_id" IN
-       (SELECT DISTINCT "patients"."id"
-        FROM "patients"
-        INNER JOIN "medical_histories" ON "medical_histories"."deleted_at" IS NULL
-        AND "medical_histories"."patient_id" = "patients"."id"
-        WHERE "patients"."deleted_at" IS NULL
-          AND "medical_histories"."deleted_at" IS NULL
-          AND "medical_histories"."hypertension" = $1
-          AND "patients"."status" != $2
-          AND "patients"."assigned_facility_id" IN
-            (SELECT "facilities"."id"
-             FROM "facilities"
-             WHERE "facilities"."deleted_at" IS NULL
-               AND "facilities"."id" IN
-                 (SELECT "facilities"."id"
-                  FROM "facilities"
-                  WHERE "facilities"."deleted_at" IS NULL
-                    AND "facilities"."id" = $3))
-          AND (recorded_at >= '2021-02-28 18:30:00'
-               AND recorded_at <= '2021-03-31 18:29:59.999999'))
-     AND ((YEAR = '2021'
-           AND MONTH = '4')
-          OR (YEAR = '2021'
-              AND MONTH = '5'))
-   ORDER BY patient_id,
-            bp_recorded_at DESC, bp_id) latest_blood_pressures_per_patient_per_months
-WHERE "latest_blood_pressures_per_patient_per_months"."deleted_at" IS NULL
-  AND (systolic < 140
-       AND diastolic < 90) [["hypertension", "yes"],
-                            ["status", "dead"],
-                            ["id", "acc3da36-c5d2-42e1-a1fe-29d6a40b0580"]]
-```
-
 **BP not controlled numerator:** The number of patients assigned to a facility registered during a month where the patient (1) is hypertensive (2) is not deleted (3) is not dead (4) has a last BP in the following 2 months and (5) the last BP is ≥140/90.
-
-```
-/* Sample SQL query */
-SELECT COUNT(*)
-FROM
-  (SELECT DISTINCT ON (patient_id) *
-   FROM "latest_blood_pressures_per_patient_per_months"
-   WHERE "latest_blood_pressures_per_patient_per_months"."deleted_at" IS NULL
-     AND "latest_blood_pressures_per_patient_per_months"."patient_id" IN
-       (SELECT DISTINCT "patients"."id"
-        FROM "patients"
-        INNER JOIN "medical_histories" ON "medical_histories"."deleted_at" IS NULL
-        AND "medical_histories"."patient_id" = "patients"."id"
-        WHERE "patients"."deleted_at" IS NULL
-          AND "medical_histories"."deleted_at" IS NULL
-          AND "medical_histories"."hypertension" = $1
-          AND "patients"."status" != $2
-          AND "patients"."assigned_facility_id" IN
-            (SELECT "facilities"."id"
-             FROM "facilities"
-             WHERE "facilities"."deleted_at" IS NULL
-               AND "facilities"."id" IN
-                 (SELECT "facilities"."id"
-                  FROM "facilities"
-                  WHERE "facilities"."deleted_at" IS NULL
-                    AND "facilities"."id" = $3))
-          AND (recorded_at >= '2021-02-28 18:30:00'
-               AND recorded_at <= '2021-03-31 18:29:59.999999'))
-     AND ((YEAR = '2021'
-           AND MONTH = '4')
-          OR (YEAR = '2021'
-              AND MONTH = '5'))
-   ORDER BY patient_id,
-            bp_recorded_at DESC, bp_id) latest_blood_pressures_per_patient_per_months
-WHERE "latest_blood_pressures_per_patient_per_months"."deleted_at" IS NULL
-  AND (systolic >= 140
-       OR diastolic >= 90) [["hypertension", "yes"],
-                            ["status", "dead"],
-                            ["id", "acc3da36-c5d2-42e1-a1fe-29d6a40b0580"]]
-```
 
 **No BP taken numerator:** The number of patients assigned to a facility registered during a month minus the number of patients with a BP taken in the following 2 months.
 
-```
-/* Sample SQL query */
-SELECT COUNT(*)
-FROM
-  (SELECT DISTINCT ON (patient_id) *
-   FROM "latest_blood_pressures_per_patient_per_months"
-   WHERE "latest_blood_pressures_per_patient_per_months"."deleted_at" IS NULL
-     AND "latest_blood_pressures_per_patient_per_months"."patient_id" IN
-       (SELECT DISTINCT "patients"."id"
-        FROM "patients"
-        INNER JOIN "medical_histories" ON "medical_histories"."deleted_at" IS NULL
-        AND "medical_histories"."patient_id" = "patients"."id"
-        WHERE "patients"."deleted_at" IS NULL
-          AND "medical_histories"."deleted_at" IS NULL
-          AND "medical_histories"."hypertension" = $1
-          AND "patients"."status" != $2
-          AND "patients"."assigned_facility_id" IN
-            (SELECT "facilities"."id"
-             FROM "facilities"
-             WHERE "facilities"."deleted_at" IS NULL
-               AND "facilities"."id" IN
-                 (SELECT "facilities"."id"
-                  FROM "facilities"
-                  WHERE "facilities"."deleted_at" IS NULL
-                    AND "facilities"."id" = $3))
-          AND (recorded_at >= '2021-02-28 18:30:00'
-               AND recorded_at <= '2021-03-31 18:29:59.999999'))
-     AND ((YEAR = '2021'
-           AND MONTH = '4')
-          OR (YEAR = '2021'
-              AND MONTH = '5'))
-   ORDER BY patient_id,
-            bp_recorded_at DESC, bp_id) latest_blood_pressures_per_patient_per_months
-WHERE "latest_blood_pressures_per_patient_per_months"."deleted_at" IS NULL
-```
-
 **Denominator:** The number of patients assigned to a facility where the patient (1) is hypertensive (2) is not deleted and (3) is not dead.
-
-```
-/* Sample SQL query */
-SELECT COUNT(DISTINCT "patients"."id")
-FROM "patients"
-INNER JOIN "medical_histories" ON "medical_histories"."deleted_at" IS NULL
-AND "medical_histories"."patient_id" = "patients"."id"
-WHERE "patients"."deleted_at" IS NULL
-  AND "medical_histories"."deleted_at" IS NULL
-  AND "medical_histories"."hypertension" = $1
-  AND "patients"."status" != $2
-  AND "patients"."assigned_facility_id" IN
-    (SELECT "facilities"."id"
-     FROM "facilities"
-     WHERE "facilities"."deleted_at" IS NULL
-       AND "facilities"."id" IN
-         (SELECT "facilities"."id"
-          FROM "facilities"
-          WHERE "facilities"."deleted_at" IS NULL
-            AND "facilities"."id" = $3))
-  AND (recorded_at >= '2021-02-28 18:30:00'
-       AND recorded_at <= '2021-03-31 18:29:59.999999') [["hypertension", "yes"],
-                                                         ["status", "dead"],
-                                                         ["id", "acc3da36-c5d2-42e1-a1fe-29d6a40b0580"]]
-```
 
 **Why is this important?** This allows program managers to track a group of patients over time and see how long it takes patients to get controlled or to be lost to follow-up.
 
