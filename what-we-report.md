@@ -20,8 +20,6 @@ Region names are unique for each country:
 | 🇪🇹 Ethiopia   | Organization | Region       | Zone         | Woreda       | Facility     |
 | 🇱🇰 Sri Lanka  | Organization | Province     | District     | Town         | Facility     |
 
-***
-
 ## Hypertension indicators
 
 ### Registrations
@@ -38,22 +36,19 @@ Region names are unique for each country:
 ### Patients under care
 
 * The number of patients assigned to a facility where the patient is hypertensive, is not deleted, is not dead, and had at least one of the following within the last 12 months: an appointment scheduled, their drugs refilled, a BP taken, or a BS taken.
-* **Why is this important?** It represents the number of “active” patients.\
-
+* **Why is this important?** It represents the number of “active” patients.
 
 ### Lost to follow-up
 
 * The number of patients assigned to a facility where the patient is hypertensive, is not deleted, is not dead, was registered >12 months ago, and hasn’t had at least one of the following within the last 12 months: an appointment scheduled, their drugs refilled, a BP taken, or a BS taken.
-* **Why is this important?** The main key indicators exclude lost to follow-up patients to allow program managers to only assess the health of active patients.\
-
+* **Why is this important?** The main key indicators exclude lost to follow-up patients to allow program managers to only assess the health of active patients.
 
 ### Follow-up patients
 
 * **Follow-up patients per user**For a given period, the number of patients attended by a user where the patient is hypertensive, is not deleted, was registered before that period, and had at least one of the following during that period: an appointment scheduled, their drugs refilled, a BP taken, or a BS taken.
 * **Follow-up patients per facility**For a given period, the number of patients that visited a facility where the patient is hypertensive, is not deleted, was registered before that period, and had at least one of the following during that period: an appointment scheduled, their drugs refilled, a BP taken, or a BS taken.
 * **Follow-up patients per region**For a given period, the sum of follow-up patients across all facilities in the region.
-* **Why is this important?** This indicator is used to monitor the facility’s activity. Follow-up patients per facility are often compared with total assigned patients because they show what proportion of patients are coming back to care.\
-
+* **Why is this important?** This indicator is used to monitor the facility’s activity. Follow-up patients per facility are often compared with total assigned patients because they show what proportion of patients are coming back to care.
 
 ### BP controlled
 
