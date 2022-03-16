@@ -33,7 +33,7 @@ Our integration branch is `master`: this is where PRs are merged, and release br
 5. The Demo app is built from this branch and released to [Simple Demo](https://play.google.com/store/apps/details?id=org.simple.clinic.staging) on the Play Store. There is a workflow on Bitrise to do this: `deploy-demo-to-play-store`. Run this workflow on the newly created release branch -- everything else happens automatically.&#x20;
    1. _If you run the deploy workflow before the tests build finishes, you will never know if something is broken in the release build._
 6. Post the details of this release to the `#releases` Slack channel to inform the rest of the organisation.
-   1. Use the [appropriate emoji](../publishing-release-notes/#release-emojis). Include the CHANGELOG section for this release.
+   1. Use the [appropriate emoji](broken-reference). Include the CHANGELOG section for this release.
    2. Inform the UI test engineer(s) to run all UI (Appium) tests on this build.
    3. Link the Bitrise build that ran the unit and integration tests; it also generates an APK pointing to the QA server that the UI test engineer(s) use to run Appium tests.
 

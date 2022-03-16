@@ -18,8 +18,6 @@
 * [Tooling & infrastructure](engineering/tooling-and-infrastructure/README.md)
   * [Service dependencies](engineering/tooling-and-infrastructure/service-dependencies.md)
   * [Developer on and offboarding](engineering/tooling-and-infrastructure/developer-onboarding.md)
-* [Release notes](engineering/publishing-release-notes/README.md)
-  * [Android release notes](engineering/publishing-release-notes/android-release-notes.md)
 * [Android](engineering/android/README.md)
   * [Conventions](engineering/android/conventions.md)
   * [Deploying to Play Store](engineering/android/deploying-to-play-store.md)
