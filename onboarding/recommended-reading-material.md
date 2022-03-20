@@ -10,7 +10,7 @@ description: >-
 
 [Mountains Beyond Mountains](https://en.wikipedia.org/wiki/Mountains_Beyond_Mountains) about Paul Farmer \(Partners in Health\). 
 
-[Epic Measures](https://www.harpercollins.com/9780062237507/epic-measures/) about how data should inform health policy. 
+[Epic Measures](https://www.harpercollins.com/products/epic-measures-jeremy-n-smith?variant=32208098328610) about how data should inform health policy. 
 
 [Factfulness](https://www.gapminder.org/factfulness-book/), a very readable and helpful way of thinking about the world in rational terms. 
 
