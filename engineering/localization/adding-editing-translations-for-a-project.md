@@ -1,6 +1,6 @@
 # Adding/Editing translations for a project
 
-* Login to the [Transifex](https://www.transifex.com/) platform.
+* Login to the [Transifex](https://www.transifex.com) platform.
 * Once logged in, on the **Dashboard tab**, with All projects selected on the left navigation bar.
 
 ![](../../.gitbook/assets/image5.png)
@@ -20,13 +20,11 @@
 
 ![](../../.gitbook/assets/image1.png)
 
-* A list of all strings and their translations \(where available\) are displayed
+* A list of all strings and their translations (where available) are displayed
 
-![](../../.gitbook/assets/image7.png)
+![](<../../.gitbook/assets/image7 (2).png>)
 
 * Click on the string that needs translating and translate it. After the translation is done, click on the blue **Save Translation** button.
 
 ![](../../.gitbook/assets/screenshot-2019-12-09-at-2.04.19-pm.png)
-
-
 

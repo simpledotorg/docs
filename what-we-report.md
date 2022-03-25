@@ -157,7 +157,7 @@ Region names are unique for each country:
 
 * Total registered patients divided by the region’s total estimated diabetic population. We currently show the patient coverage for “Region 2” and “Region 3” (see region table above for reference). A “Region 2”s patient coverage value is displayed _only_ if all of its child regions have an estimated population value entered on the Dashboard.
 
-## Other indicators
+## Other data we report
 
 ### Overdue patients
 

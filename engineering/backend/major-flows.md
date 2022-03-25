@@ -1,28 +1,28 @@
 # Major flows
 
-### Self-registration 
+### Self-registration&#x20;
 
-![](../../.gitbook/assets/image%20%2810%29.png)
+![](<../../.gitbook/assets/image (10).png>)
 
 ### Lock and Unlock the Android app
 
-![](../../.gitbook/assets/image%20%284%29.png)
+![](<../../.gitbook/assets/image (4).png>)
 
 ### Recent Patients List on home screen of Android app
 
-![](../../.gitbook/assets/recent-patients-list.jpg)
+![](<../../.gitbook/assets/recent-patients-list (1).jpg>)
 
 ### Login on a new device
 
-![](../../.gitbook/assets/image%20%283%29.png)
+![](<../../.gitbook/assets/image (3).png>)
 
-### Forgot PIN 
+### Forgot PIN&#x20;
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![](<../../.gitbook/assets/image (8).png>)
 
 ### Overdue Patients List
 
-![](../../.gitbook/assets/overdue-list%20%281%29.jpg)
+![](<../../.gitbook/assets/overdue-list (1).jpg>)
 
 ### "High risk" label in the Overdue Patients List
 
@@ -30,9 +30,8 @@
 
 ### Schedule next visit
 
-![](../../.gitbook/assets/image%20%289%29.png)
+![](<../../.gitbook/assets/image (9).png>)
 
 ### Dashboard reports
 
-![](../../.gitbook/assets/recent-patients-list%20%282%29.jpg)
-
+![](<../../.gitbook/assets/recent-patients-list (2).jpg>)
