@@ -3,13 +3,14 @@
 * [What is Simple?](README.md)
 * [Try it out](how-to-test-the-simple-app.md)
 * [Training materials](training-materials.md)
-* [What we report](what-we-report.md)
-* [Building custom reports](building-custom-reports.md)
 * [Customer support](support/README.md)
+  * [Contact us](support/contact.md)
   * [Bug priority definitions](support/bug-priority-definitions.md)
-* [Code of conduct](code-of-conduct.md)
-* [Digital principles](https://simple.org/digitalprinciples/)
-* [Contact us](contact.md)
+
+## Reports
+
+* [What we report](reports/what-we-report.md)
+* [Building custom reports](reports/building-custom-reports.md)
 
 ## Engineering
 
@@ -42,12 +43,13 @@
 
 ## Onboarding
 
+* [Code of conduct](onboarding/code-of-conduct.md)
 * [Acronyms](onboarding/acronyms.md)
 * [Glossary](onboarding/glossary.md)
 * [Recommended reading](onboarding/recommended-reading-material.md)
+* [Digital principles](https://simple.org/digitalprinciples/)
 
 ## Elsewhere
 
 * [Simple.org](https://simple.org)
 * [Source code (GitHub)](https://github.com/simpledotorg)
-* [Join our Slack (Slack)](https://goo.gl/forms/csgMyxjOwpvB5ilr2)

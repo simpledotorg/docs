@@ -137,7 +137,7 @@ The following table is a summary of each of the reporting tables, and what they 
 
 The reporting tables are building blocks that are built on top of raw data. The following diagram illustrates which raw tables they are based on, and how we build larger even building blocks from these tables.
 
-![Derivation of the reporting tables from raw data](<.gitbook/assets/reporting-tables (3).png>)
+![Derivation of the reporting tables from raw data](<../.gitbook/assets/reporting-tables (3).png>)
 
 * **Raw data tables:** Data as recorded in the app goes into the transactional, or raw tables as seen in the first section of the diagram. These rows have all the detailed information collected as and when the nurse syncs the data via the Simple app. These tables have billions of rows, and are not well suited for querying reports.
 * **Reporting tables:** These are summarised tables created from the raw data tables for ease of creating reports. The summaries can be per-patient-per-month, or per-facility-per-month. Please refer to the above diagram for the description of each table.
