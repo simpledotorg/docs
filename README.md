@@ -20,7 +20,7 @@ The Simple Android app that is used by healthcare workers to:
 
 
 
-![Screenshots of the Simple Android app](.gitbook/assets/simple-app.png)
+![Screenshots of the Simple Android app (fake data)](.gitbook/assets/simple-app.png)
 
 #### **Technology**
 
@@ -39,9 +39,9 @@ A web-based tool that allows managers to:
 5. Automatically send text messages to patients to return them to care
 6. API to manage data across mobile devices and to integrate with DHIS2 and other applications
 
-![](<.gitbook/assets/image (12).png>)
+![Screenshot of the Simple Dashboard (fake data)](<.gitbook/assets/image (12).png>)
 
-
+#### Technology
 
 Github: [simpledotorg/simple-server](https://github.com/simpledotorg/simple-server) repository
 
