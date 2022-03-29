@@ -45,9 +45,9 @@ Region names are unique for each country:
 
 ### Follow-up patients
 
-* **Follow-up patients per user**For a given period, the number of patients attended by a user where the patient is hypertensive, is not deleted, was registered before that period, and had at least one of the following during that period: an appointment scheduled, their drugs refilled, a BP taken, or a BS taken.
-* **Follow-up patients per facility**For a given period, the number of patients that visited a facility where the patient is hypertensive, is not deleted, was registered before that period, and had at least one of the following during that period: an appointment scheduled, their drugs refilled, a BP taken, or a BS taken.
-* **Follow-up patients per region**For a given period, the sum of follow-up patients across all facilities in the region.
+* **Follow-up patients per user:** For a given period, the number of patients attended by a user where the patient is hypertensive, is not deleted, was registered before that period, and had at least one of the following during that period: an appointment scheduled, their drugs refilled, a BP taken, or a BS taken.
+* **Follow-up patients per facility:** For a given period, the number of patients that visited a facility where the patient is hypertensive, is not deleted, was registered before that period, and had at least one of the following during that period: an appointment scheduled, their drugs refilled, a BP taken, or a BS taken.
+* **Follow-up patients per region:** For a given period, the sum of follow-up patients across all facilities in the region.
 * **Why is this important?** This indicator is used to monitor the facility’s activity. Follow-up patients per facility are often compared with total assigned patients because they show what proportion of patients are coming back to care.
 
 ### BP controlled
@@ -99,7 +99,7 @@ Region names are unique for each country:
 
 ## Diabetes indicators
 
-### Registrations
+#### Registrations
 
 * **Monthly registrations:** the number of patients registered at a facility during a month where the patient is diabetic and is not deleted.
 * **Total registrations:** the total number of patients registered at a facility where the patient is diabetic and is not deleted.
